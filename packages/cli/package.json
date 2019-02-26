@@ -1,0 +1,23 @@
+{
+  "name": "commently-cli",
+  "version": "0.0.0",
+  "description": "Easily comment on github issues and PRs from the CLI",
+  "main": "cli.js",
+  "bin": {
+    "commently": "./dist/cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint -p . --format stylish",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "arg": "^4.1.0",
+    "commently": "0.0.0",
+    "log-symbols": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/log-symbols": "^2.0.0",
+    "@types/node": "^10.12.18"
+  }
+}

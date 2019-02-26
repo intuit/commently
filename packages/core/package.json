@@ -1,0 +1,21 @@
+{
+  "name": "commently",
+  "version": "0.0.0",
+  "description": "Easily comment on github issues and PRs",
+  "main": "dist/core.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint -p . --format stylish",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.13.3",
+    "debug": "^4.1.1",
+    "env-ci": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^0.0.31",
+    "@types/env-ci": "^3.1.0",
+    "@types/node": "^10.12.18"
+  }
+}
