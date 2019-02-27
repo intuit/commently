@@ -35,7 +35,6 @@ jobs:
       - restore_cache: *restore-cache
       - run: *yarn
       - save_cache: *save-cache
-      - run: *lint
       - run: *build
 
   test:
