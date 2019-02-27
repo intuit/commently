@@ -14,8 +14,8 @@
     "env-ci": "^3.2.0"
   },
   "devDependencies": {
-    "@types/debug": "^0.0.31",
-    "@types/env-ci": "^3.1.0",
-    "@types/node": "^10.12.18"
+    "@types/debug": "0.0.31",
+    "@types/env-ci": "3.1.0",
+    "@types/node": "10.12.18"
   }
 }
