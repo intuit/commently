@@ -1,3 +1,15 @@
+# v0.0.5 (Thu Feb 28 2019)
+
+#### 🐛  Bug Fix
+
+- Pin dependencies [#7](https://github.com/intuit/commently/pull/7) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.0.4 (Thu Feb 28 2019)
 
 #### 🐛  Bug Fix
