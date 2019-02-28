@@ -5,7 +5,7 @@
   "main": "dist/core.js",
   "scripts": {
     "test": "jest",
-    "lint": "tslint -p . --format stylish",
+    "lint": "eslint **/*.ts",
     "build": "tsc"
   },
   "dependencies": {

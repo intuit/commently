@@ -10,21 +10,23 @@
   "scripts": {
     "clean": "rm -rf node_modules && rm -rf packages/**/dist && lerna clean --yes",
     "test": "jest",
-    "lint": "tslint -p . --format stylish",
+    "lint": "eslint packages/**/*.ts",
     "build": "lerna run --stream build",
     "build:watch": "lerna run --parallel build -- -- --watch --preserveWatchOutput"
   },
   "devDependencies": {
     "@types/jest": "23.3.13",
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "eslint": "^5.14.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-xo": "^0.26.0",
     "husky": "1.3.1",
     "jest": "23.6.0",
     "lerna": "3.10.7",
     "lint-staged": "8.1.1",
     "prettier": "1.16.1",
     "ts-jest": "23.10.5",
-    "tslint": "5.12.1",
-    "tslint-config-prettier": "1.17.0",
-    "tslint-xo": "0.13.0",
     "typescript": "3.2.4"
   },
   "prettier": {
