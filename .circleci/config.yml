@@ -23,6 +23,9 @@ aliases:
   - &build
     name: Build
     command: yarn build
+  - &release
+    name: Release
+    command: yarn run release
 
 version: 2
 jobs:
@@ -47,6 +50,16 @@ jobs:
       - save_cache: *save-cache
       - run: *test
 
+  release:
+    docker: *docker
+    steps:
+      - restore_cache: *restore-cache
+      - run: *yarn
+      - save_cache: *save-cache
+      - run: *build
+      - run: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+      - run: *release
+
 workflows:
   version: 2
   build_and_test:
@@ -55,3 +68,10 @@ workflows:
       - test:
           requires:
             - build
+      - release:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master

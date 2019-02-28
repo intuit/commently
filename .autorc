@@ -1,0 +1,5 @@
+{
+  "name": "auto",
+  "email": "intuit.auto.release@gmail.com",
+  "plugins": ["npm", "released"]
+}
