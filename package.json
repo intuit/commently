@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "description": "Easily comment on github issues and PRs",
-  "author": "Intuit",
   "workspaces": [
     "packages/*"
   ],
