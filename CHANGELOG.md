@@ -1,3 +1,17 @@
+# v0.0.9 (Thu Feb 28 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency typescript to v3.3.3333 [#17](https://github.com/intuit/commently/pull/17) ([@renovate-bot](https://github.com/renovate-bot))
+- docs: add readme badges [#22](https://github.com/intuit/commently/pull/22) ([@Aghassi](https://github.com/Aghassi))
+
+#### Authors: 2
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+- David ([@Aghassi](https://github.com/Aghassi))
+
+---
+
 # v0.0.8 (Thu Feb 28 2019)
 
 #### 🐛  Bug Fix
