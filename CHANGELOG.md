@@ -1,3 +1,21 @@
+# v0.0.6 (Thu Feb 28 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency @types/jest to v24 [#19](https://github.com/intuit/commently/pull/19) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- Update dependency lint-staged to v8.1.4 [#15](https://github.com/intuit/commently/pull/15) ([@renovate-bot](https://github.com/renovate-bot))
+- Update Node.js to v8.15.0 [#14](https://github.com/intuit/commently/pull/14) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.13.1 [#9](https://github.com/intuit/commently/pull/9) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.0.5 (Thu Feb 28 2019)
 
 #### 🐛  Bug Fix
