@@ -1,3 +1,15 @@
+# v0.0.8 (Thu Feb 28 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency prettier to v1.16.4 [#16](https://github.com/intuit/commently/pull/16) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.0.7 (Thu Feb 28 2019)
 
 #### 🐛  Bug Fix
