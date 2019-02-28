@@ -5,6 +5,12 @@ const mockOcto = jest.fn();
 // tslint:disable-next-line
 jest.mock('@octokit/rest', () => (...args) => mockOcto(...args));
 
+const mockEnv = jest.fn();
+mockEnv.mockReturnValue({});
+// @ts-ignore
+// tslint:disable-next-line
+jest.mock('env-ci', () => (...args) => mockEnv(...args));
+
 const origToken = process.env.GH_TOKEN;
 
 describe('commently', () => {
@@ -19,14 +25,13 @@ describe('commently', () => {
 
     it('should fail without a pr number', () => {
       process.env.GH_TOKEN = 'yes';
-      // tslint:disable-next-line no-unused-expression
-      expect(() => new Commently({})).toThrow();
+      expect(() => new Commently({ owner: 'foo', repo: 'bar' })).toThrow();
     });
 
     it('should fail without an owner', () => {
       process.env.GH_TOKEN = 'yes';
       // tslint:disable-next-line no-unused-expression
-      expect(() => new Commently({ pr: 1 })).toThrow();
+      expect(() => new Commently({ pr: 1, repo: 'bar' })).toThrow();
     });
 
     it('should fail without a repo', () => {
