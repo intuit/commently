@@ -1,3 +1,16 @@
+# v0.0.10 (Thu Feb 28 2019)
+
+#### 🐛  Bug Fix
+
+- `core`
+  - chore(deps): update dependency @types/debug to v4 [#18](https://github.com/intuit/commently/pull/18) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.0.9 (Thu Feb 28 2019)
 
 #### 🐛  Bug Fix
