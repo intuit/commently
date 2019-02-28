@@ -1,3 +1,16 @@
+# v0.0.7 (Thu Feb 28 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency jest to v24 [#20](https://github.com/intuit/commently/pull/20) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency ts-jest to v24 [#21](https://github.com/intuit/commently/pull/21) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.0.6 (Thu Feb 28 2019)
 
 #### 🐛  Bug Fix
