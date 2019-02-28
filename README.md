@@ -1,4 +1,10 @@
-# commently
+# commently - Comment easily 😀💬
+
+[![npm](https://img.shields.io/npm/v/commently.svg)](https://www.npmjs.com/package/commently)
+[![CircleCI](https://circleci.com/gh/intuit/commently/tree/master.svg?style=shield)](https://circleci.com/gh/intuit/commently/tree/master)
+[![CLI Package Known Vulnerabilities](https://snyk.io/test/github/intuit/commently/badge.svg?targetFile=packages%2Fcli%2Fpackage.json)](https://snyk.io/test/github/intuit/commently?targetFile=packages%2Fcli%2Fpackage.json)
+[![Core Package Known Vulnerabilities](https://snyk.io/test/github/intuit/commently/badge.svg?targetFile=packages%2Fcore%2Fpackage.json)](https://snyk.io/test/github/intuit/commently?targetFile=packages%2Fcore%2Fpackage.json)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
 ```sh
 commently: Easily comment on PRs
