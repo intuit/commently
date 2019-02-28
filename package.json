@@ -64,8 +64,9 @@
     "testMatch": [
       "**/*.test.+(ts|tsx|js)"
     ],
-    "projects": [
-      "<rootDir>/packages/"
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/.cache/"
     ],
     "collectCoverageFrom": [
       "!**/dist/**",
