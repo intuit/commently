@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-// tslint:disable no-console
 
 import * as arg from 'arg';
 import Commently from 'commently';

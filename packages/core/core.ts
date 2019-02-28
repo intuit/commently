@@ -1,29 +1,28 @@
-import * as octokit from '@octokit/rest';
+import * as Octokit from '@octokit/rest';
 import * as debug from 'debug';
 import * as envCi from 'env-ci';
 
-interface ICommentlyArgs {
+interface CommentlyArgs {
   pr?: number;
   owner?: string;
   repo?: string;
   title?: string;
 }
 
-interface IEnvCi {
+interface EnvCi {
   pr?: number;
   slug?: string;
 }
 
-interface IUser {
+interface User {
   id: number;
 }
 
 export default class Commently {
-  readonly header: string;
+  public readonly header: string;
 
-  private user?: IUser;
-
-  private readonly octokit: octokit;
+  private user?: User;
+  private readonly octokit: Octokit;
   private readonly owner: string;
   private readonly repo: string;
   private readonly title: string;
@@ -32,10 +31,10 @@ export default class Commently {
   private readonly delim: string;
   private readonly debug: debug.IDebugger;
 
-  constructor(args: ICommentlyArgs) {
+  constructor(args: CommentlyArgs) {
     this.debug = debug('commently');
 
-    const { pr, slug = '' } = envCi() as IEnvCi;
+    const { pr, slug = '' } = envCi() as EnvCi;
     const [owner, repo] = slug.split('/');
     const prNumber = args.pr || pr;
 
@@ -72,7 +71,7 @@ export default class Commently {
 
     this.debug('Initialized: owner=%s repo=%s', this.owner, this.repo);
 
-    const startUpArgs: octokit.Options = {
+    const startUpArgs: Octokit.Options = {
       baseUrl: process.env.GITHUB_URL || 'https://api.github.com'
     };
     const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
@@ -81,7 +80,7 @@ export default class Commently {
       startUpArgs.auth = `token ${token}`;
     }
 
-    this.octokit = new octokit(startUpArgs);
+    this.octokit = new Octokit(startUpArgs);
   }
 
   async autoComment(body: string, append = true) {
@@ -97,7 +96,7 @@ export default class Commently {
   }
 
   private async editKeyedComment(
-    comment: octokit.IssuesListCommentsResponseItem,
+    comment: Octokit.IssuesListCommentsResponseItem,
     body: string,
     append = true
   ) {
@@ -109,7 +108,7 @@ export default class Commently {
       const header = parts.shift();
       const last = (parts.shift() || '')
         .replace('- ', '')
-        .replace(/\`/g, '')
+        .replace(/`/g, '')
         .replace('@', '<span>@</span>');
       const footer = parts.pop();
       let history = parts.shift();
@@ -118,7 +117,7 @@ export default class Commently {
         const historyParts = history.split(historyDelim);
         const historyHeader = historyParts.shift();
         const historyFooter = historyParts.pop();
-        // only keep 10 items in history
+        // Only keep 10 items in history
         const historySubParts = (historyParts.pop() || '').split('<hr>');
 
         if (historySubParts.length > 10) {
@@ -153,6 +152,7 @@ export default class Commently {
   private async editComment(id: number, body: string) {
     return this.octokit.issues.updateComment({
       body,
+      // eslint-disable-next-line
       comment_id: id,
       owner: this.owner,
       repo: this.repo
@@ -173,7 +173,7 @@ export default class Commently {
   }
 
   private async getComments(
-    options: Partial<octokit.IssuesListCommentsParams> = {}
+    options: Partial<Octokit.IssuesListCommentsParams> = {}
   ) {
     const response = await this.octokit.issues.listComments({
       number: this.issueId,
@@ -197,7 +197,7 @@ export default class Commently {
     const response = await this.octokit.users.getAuthenticated({});
 
     if (response && response.data) {
-      this.user = response.data as IUser;
+      this.user = response.data as User;
       return this.user;
     }
 

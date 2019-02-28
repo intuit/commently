@@ -1,7 +1,6 @@
 aliases:
-  - &docker
-      # specify the version you desire here
-      - image: circleci/node:8.12.0
+  - &docker # specify the version you desire here
+    - image: circleci/node:8.12.0
   # Circle related commands
   - &restore-cache
     keys:
@@ -35,11 +34,12 @@ jobs:
       - restore_cache: *restore-cache
       - run: *yarn
       - save_cache: *save-cache
+      - run: *lint
       - run: *build
 
   test:
     docker: *docker
-    steps:  
+    steps:
       - checkout
       # Download and cache dependencies
       - restore_cache: *restore-cache
