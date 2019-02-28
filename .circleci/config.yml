@@ -53,6 +53,7 @@ jobs:
   release:
     docker: *docker
     steps:
+      - checkout
       - restore_cache: *restore-cache
       - run: *yarn
       - save_cache: *save-cache
