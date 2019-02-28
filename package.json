@@ -62,7 +62,7 @@
       "^.+\\.(ts|tsx)$": "ts-jest"
     },
     "testMatch": [
-      "packages/**/*.test.+(ts|tsx|js)"
+      "<rootDir>/**/*.test.+(ts|tsx|js)"
     ],
     "collectCoverageFrom": [
       "!**/dist/**",
