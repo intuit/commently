@@ -1,3 +1,15 @@
+# v0.0.11 (Fri Mar 01 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update node.js to v8.15.1 [#23](https://github.com/intuit/commently/pull/23) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.0.10 (Thu Feb 28 2019)
 
 #### 🐛  Bug Fix
