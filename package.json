@@ -86,6 +86,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@types/node": "10.12.27"
+    "@types/node": "10.12.29"
   }
 }
