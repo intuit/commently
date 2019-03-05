@@ -1,3 +1,15 @@
+# v0.0.15 (Tue Mar 05 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency eslint to v5.15.1 [#28](https://github.com/intuit/commently/pull/28) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.0.14 (Sun Mar 03 2019)
 
 #### 🐛  Bug Fix
