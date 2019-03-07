@@ -1,3 +1,16 @@
+# v0.0.17 (Thu Mar 07 2019)
+
+#### 🐛  Bug Fix
+
+- `cli`, `core`
+  - chore(deps): update dependency @types/node to v10.12.30 [#29](https://github.com/intuit/commently/pull/29) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.0.16 (Tue Mar 05 2019)
 
 #### 🐛  Bug Fix
