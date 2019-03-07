@@ -1,3 +1,15 @@
+# v0.0.18 (Thu Mar 07 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency jest to v24.3.0 [#30](https://github.com/intuit/commently/pull/30) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.0.17 (Thu Mar 07 2019)
 
 #### 🐛  Bug Fix
