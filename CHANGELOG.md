@@ -1,3 +1,16 @@
+# v0.1.0 (Fri Mar 08 2019)
+
+#### 🚀  Enhancement
+
+- `cli`, `core`
+  - fix: add unique key field for comments [#33](https://github.com/intuit/commently/pull/33) ([@Aghassi](https://github.com/Aghassi))
+
+#### Authors: 1
+
+- David ([@Aghassi](https://github.com/Aghassi))
+
+---
+
 # v0.0.19 (Fri Mar 08 2019)
 
 #### 🐛  Bug Fix
