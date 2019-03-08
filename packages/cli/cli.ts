@@ -36,7 +36,7 @@ if (args['--help']) {
     --owner        String     :    The owner for the project. Detected in CI env
     --repo         String     :    The repo for the project. Detected in CI env
     --title        String     :    The title to your comment with. Defaults to "Commently"
-    --key        String     :    The unique key to id your comment with. Defaults to "commently"
+    --key          String     :    The unique key to id your comment with. Usually the name of the bot. Defaults to "commently"
     --help, -h     Boolean    :    Show the help dialog
     --verbose, -v  Boolean    :    Output the debug log
   `);
