@@ -19,7 +19,7 @@
     "release": "auto shipit"
   },
   "devDependencies": {
-    "@types/jest": "24.0.9",
+    "@types/jest": "24.0.10",
     "@typescript-eslint/eslint-plugin": "1.4.2",
     "@typescript-eslint/parser": "1.4.2",
     "auto": "4.8.9",
