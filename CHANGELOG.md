@@ -1,3 +1,21 @@
+# v0.1.1 (Fri Mar 08 2019)
+
+#### 🐛  Bug Fix
+
+- `core`
+  - docs: added README to core.ts [#34](https://github.com/intuit/commently/pull/34) ([@Aghassi](https://github.com/Aghassi))
+
+#### 🏠  Internal
+
+- chore(deps): update dependency @types/jest to v24.0.10 [#35](https://github.com/intuit/commently/pull/35) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- David ([@Aghassi](https://github.com/Aghassi))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.0 (Fri Mar 08 2019)
 
 #### 🚀  Enhancement
