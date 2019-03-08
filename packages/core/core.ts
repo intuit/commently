@@ -7,6 +7,8 @@ interface CommentlyArgs {
   owner?: string;
   repo?: string;
   title?: string;
+  // They unique key to identify the comment by, not shown to end users
+  key?: string;
 }
 
 interface EnvCi {
@@ -26,6 +28,7 @@ export default class Commently {
   private readonly owner: string;
   private readonly repo: string;
   private readonly title: string;
+  private readonly key: string;
   private readonly issueId: number;
   private readonly footer: string;
   private readonly delim: string;
@@ -44,7 +47,8 @@ export default class Commently {
       );
     }
 
-    this.title = args.title || 'commently';
+    this.title = args.title || '';
+    this.key = args.key || 'commently';
     this.owner = args.owner || owner;
     this.repo = args.repo || repo;
 
@@ -61,13 +65,13 @@ export default class Commently {
     }
 
     this.issueId = prNumber;
-    this.header = `<!-- \n ${this.title}-id: ${this.issueId} \n -->\n${
+    this.header = `<!-- \n ${this.key}-id: ${this.issueId} \n -->\n${
       this.title
     }\n`;
     this.footer = `Courtesy of your **[${
-      this.title
+      this.key
     }](https://github.com/intuit/commently)** bot :package::rocket:`;
-    this.delim = `<!-- ${this.title}-section -->\n\n`;
+    this.delim = `<!-- ${this.key}-section -->\n\n`;
 
     this.debug('Initialized: owner=%s repo=%s', this.owner, this.repo);
 
@@ -101,7 +105,7 @@ export default class Commently {
     append = true
   ) {
     this.debug('Editing existing Keyed Comment. id=%s', comment.id);
-    const historyDelim = `<!-- ${this.title}-history -->`;
+    const historyDelim = `<!-- ${this.key}-history -->`;
 
     if (append) {
       const parts = comment.body.split(this.delim);
