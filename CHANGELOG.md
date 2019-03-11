@@ -1,3 +1,19 @@
+# v0.1.2 (Mon Mar 11 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency jest to v24.4.0 [#38](https://github.com/intuit/commently/pull/38) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- chore(deps): update dependency @types/jest to v24.0.11 [#37](https://github.com/intuit/commently/pull/37) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.1 (Fri Mar 08 2019)
 
 #### 🐛  Bug Fix
