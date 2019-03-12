@@ -18,7 +18,8 @@ commently: Easily comment on PRs
     --pr           Number     :    The pull request/issue to comment on. Detected in CI env
     --owner        String     :    The owner for the project. Detected in CI env
     --repo         String     :    The repo for the project. Detected in CI env
-    --title        String     :    The title to key your comment with. Defaults to "commently"
+    --title        String     :    The title of your comment. Defaults to "Commently"
+    --key.         String     :    The unique key for your comment. Defaults to "commently"
     --help, -h     Boolean    :    Show the help dialog
     --verbose, -v  Boolean    :    Output the debug log
 ```
