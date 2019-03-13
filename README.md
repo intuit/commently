@@ -6,7 +6,23 @@
 [![Core Package Known Vulnerabilities](https://snyk.io/test/github/intuit/commently/badge.svg?targetFile=packages%2Fcore%2Fpackage.json)](https://snyk.io/test/github/intuit/commently?targetFile=packages%2Fcore%2Fpackage.json)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
-```sh
+## Installation
+
+```
+yarn add commently-cli --dev
+```
+
+Alternatively, you can run via `npx`
+
+```
+npx commently-cli
+```
+
+## Usage
+
+```
+yarn commently
+
 commently: Easily comment on PRs
 
     Required
