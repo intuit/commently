@@ -1439,10 +1439,10 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@4.8.9:
-  version "4.8.9"
-  resolved "https://registry.yarnpkg.com/auto/-/auto-4.8.9.tgz#cb39e9f971975decc28450ff804492b8003cf10b"
-  integrity sha512-wjUnz73NzzqM8nnokbDO7n/YAO4GnOCYJWJcnyqJKQHChcsD2ngAx5IxxXUtyoIb5/i59EJDM+OiSqN0cl0u5w==
+auto@4.8.10:
+  version "4.8.10"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-4.8.10.tgz#24dae0f01828cd25a03a76ac27e52330ad89ea0b"
+  integrity sha512-WT3ND3E9aqmxJYrKh7ivnrhWUR+h3xY4J06JGDgFSClyNNx76f2zqT924P4zyWZIGV4BrIBo/9GOhDrv20PDdw==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
     "@hutson/set-npm-auth-token-for-ci" "^3.0.2"
@@ -1456,7 +1456,7 @@ auto@4.8.9:
     cosmiconfig "5.1.0"
     dedent "^0.7.0"
     deepmerge "^3.2.0"
-    dotenv "^6.2.0"
+    dotenv "^7.0.0"
     enquirer "^2.3.0"
     get-monorepo-packages "^1.1.0"
     gitlog "^3.1.2"
@@ -1466,7 +1466,7 @@ auto@4.8.9:
     parse-author "^2.0.0"
     parse-commit-message "4.0.0"
     parse-github-url "1.0.2"
-    registry-url "4.0.0"
+    registry-url "5.0.0"
     semver "^5.6.0"
     signale "^1.4.0"
     tapable "^2.0.0-beta.2"
@@ -2433,10 +2433,10 @@ dot-prop@^4.2.0:
   dependencies:
     is-obj "^1.0.0"
 
-dotenv@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
-  integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
+dotenv@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-7.0.0.tgz#a2be3cd52736673206e8a85fb5210eea29628e7c"
+  integrity sha512-M3NhsLbV1i6HuGzBUH8vXrtxOk+tWmzWKDMbAVSUp3Zsjm7ywFeuwrUXhmhQyRK1q5B5GGy7hcXPbj3bnfZg2g==
 
 duplexer3@^0.1.4:
   version "0.1.4"
@@ -5928,7 +5928,7 @@ quick-lru@^1.0.0:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-1.1.0.tgz#4360b17c61136ad38078397ff11416e186dcfbb8"
   integrity sha1-Q2CxfGETatOAeDl/8RQW4Ybc+7g=
 
-rc@^1.2.7:
+rc@^1.2.7, rc@^1.2.8:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
   integrity sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
@@ -6107,7 +6107,14 @@ regexpp@^2.0.1:
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
   integrity sha512-lv0M6+TkDVniA3aD1Eg0DVpfU/booSu7Eev3TDO/mZKHBfVjgCGTV4t4buppESEYDtkArYFOxTJWv6S5C+iaNw==
 
-registry-url@4.0.0, registry-url@^4.0.0:
+registry-url@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/registry-url/-/registry-url-5.0.0.tgz#ea9b9f54247d0d95adfcaf9e20a4f8fa28d86e72"
+  integrity sha512-qH1SjdlyxreHU8atIDzP1MOb1GG2g5746L3nnwISWTUh8GBLotl82sOayZJtm/KwmrMeMaEzAV26o6Pk1hJuoA==
+  dependencies:
+    rc "^1.2.8"
+
+registry-url@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/registry-url/-/registry-url-4.0.0.tgz#7dc344ef0f1496fc95a6ad04ccb9a491df11c025"
   integrity sha512-WAfGLywivb8s2+Cfblq1UV+kOyzURHzWSJmciDvrmstr4bv/0lnVSB9jfoOfkxx5xNJ1OGlSFmZh9WYBLFJOPg==
