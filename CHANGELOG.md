@@ -1,3 +1,15 @@
+# v0.1.7 (Wed Mar 13 2019)
+
+#### ⚠️  Pushed to master
+
+- docs: clarified usage in the readme  ([@3680126+Aghassi@users.noreply.github.com](https://github.com/3680126+Aghassi@users.noreply.github.com))
+
+#### Authors: 1
+
+- [@3680126+Aghassi@users.noreply.github.com](https://github.com/3680126+Aghassi@users.noreply.github.com)
+
+---
+
 # v0.1.6 (Wed Mar 13 2019)
 
 #### 🐛  Bug Fix
