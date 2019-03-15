@@ -22,7 +22,7 @@
     "@types/jest": "24.0.11",
     "@typescript-eslint/eslint-plugin": "1.4.2",
     "@typescript-eslint/parser": "1.4.2",
-    "auto": "4.8.10",
+    "auto": "4.8.11",
     "eslint": "5.15.1",
     "eslint-config-prettier": "4.1.0",
     "eslint-config-xo": "0.26.0",
