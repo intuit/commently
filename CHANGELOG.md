@@ -1,3 +1,19 @@
+# v0.1.10 (Thu Mar 21 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update typescript-eslint monorepo to v1.5.0 [#48](https://github.com/intuit/commently/pull/48) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- chore(deps): update dependency eslint to v5.15.3 [#46](https://github.com/intuit/commently/pull/46) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.9 (Sat Mar 16 2019)
 
 #### 🐛  Bug Fix
