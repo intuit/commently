@@ -32,7 +32,7 @@
     "lint-staged": "8.1.5",
     "prettier": "1.16.4",
     "ts-jest": "24.0.0",
-    "typescript": "3.3.3333"
+    "typescript": "3.4.2"
   },
   "prettier": {
     "singleQuote": true
