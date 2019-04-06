@@ -1,3 +1,15 @@
+# v0.1.16 (Sat Apr 06 2019)
+
+#### ⚠️  Pushed to master
+
+- chore: updated intuit auto  ([@3680126+Aghassi@users.noreply.github.com](https://github.com/3680126+Aghassi@users.noreply.github.com))
+
+#### Authors: 1
+
+- [@3680126+Aghassi@users.noreply.github.com](https://github.com/3680126+Aghassi@users.noreply.github.com)
+
+---
+
 # v0.1.15 (Sat Apr 06 2019)
 
 #### 🐛  Bug Fix
