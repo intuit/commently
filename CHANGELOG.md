@@ -1,3 +1,16 @@
+# v0.1.20 (Fri Apr 19 2019)
+
+#### 🐛  Bug Fix
+
+- `cli`
+  - Update dependency log-symbols to v3 [#63](https://github.com/intuit/commently/pull/63) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.19 (Fri Apr 12 2019)
 
 #### 🐛  Bug Fix
