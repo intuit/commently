@@ -1,3 +1,16 @@
+# v0.1.22 (Sat Apr 20 2019)
+
+#### ⚠️  Pushed to master
+
+- chore: updated ts eslint plugins  ([@3680126+Aghassi@users.noreply.github.com](https://github.com/3680126+Aghassi@users.noreply.github.com))
+- chore: updated tooling lerna, prettier, ts, and auto  ([@3680126+Aghassi@users.noreply.github.com](https://github.com/3680126+Aghassi@users.noreply.github.com))
+
+#### Authors: 1
+
+- [@3680126+Aghassi@users.noreply.github.com](https://github.com/3680126+Aghassi@users.noreply.github.com)
+
+---
+
 # v0.1.21 (Sat Apr 20 2019)
 
 #### 🐛  Bug Fix
