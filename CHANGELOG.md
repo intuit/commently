@@ -1,3 +1,15 @@
+# v0.1.24 (Sun Apr 21 2019)
+
+#### ⚠️  Pushed to master
+
+- ci: adding lockfile maintenance for renovate  ([@3680126+Aghassi@users.noreply.github.com](https://github.com/3680126+Aghassi@users.noreply.github.com))
+
+#### Authors: 1
+
+- [@3680126+Aghassi@users.noreply.github.com](https://github.com/3680126+Aghassi@users.noreply.github.com)
+
+---
+
 # v0.1.23 (Sun Apr 21 2019)
 
 #### 🐛  Bug Fix
