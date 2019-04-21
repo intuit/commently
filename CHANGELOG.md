@@ -1,3 +1,15 @@
+# v0.1.23 (Sun Apr 21 2019)
+
+#### 🐛  Bug Fix
+
+- Update Node.js to v8.16.0 [#66](https://github.com/intuit/commently/pull/66) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.22 (Sat Apr 20 2019)
 
 #### ⚠️  Pushed to master
