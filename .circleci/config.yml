@@ -1,6 +1,6 @@
 aliases:
   - &docker # specify the version you desire here
-    - image: circleci/node:8.15.1
+    - image: circleci/node:8.16.0
   # Circle related commands
   - &restore-cache
     keys:
