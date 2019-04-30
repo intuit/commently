@@ -1,3 +1,16 @@
+# v0.1.26 (Tue Apr 30 2019)
+
+#### 🐛  Bug Fix
+
+- `cli`, `core`
+  - Update dependency @types/node to v10.14.6 [#73](https://github.com/intuit/commently/pull/73) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.25 (Thu Apr 25 2019)
 
 #### 🐛  Bug Fix
