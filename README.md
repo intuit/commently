@@ -6,6 +6,10 @@
 [![Core Package Known Vulnerabilities](https://snyk.io/test/github/intuit/commently/badge.svg?targetFile=packages%2Fcore%2Fpackage.json)](https://snyk.io/test/github/intuit/commently?targetFile=packages%2Fcore%2Fpackage.json)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
+`commently` is a package for leaving comments on a GitHub PR from CI. However, what makes `commently` different is that it will update the same comment and keep a history over time. This allows less noise on PRs, and also a way for users to references prior automation.
+
+An example of a use case for `commently` is preview releases. If your project does a preview build, you can use `commently` to publish a comment to GitHub with the preview version and instructions for your users on how they can test.
+
 ## Installation
 
 ```
