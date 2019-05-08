@@ -1,3 +1,15 @@
+# v0.1.29 (Wed May 08 2019)
+
+#### 🐛  Bug Fix
+
+- refactor: add workspaces and npmclient to learn.json [#80](https://github.com/intuit/commently/pull/80) ([@Aghassi](https://github.com/Aghassi))
+
+#### Authors: 1
+
+- David ([@Aghassi](https://github.com/Aghassi))
+
+---
+
 # v0.1.28 (Tue May 07 2019)
 
 #### ⚠️  Pushed to master
