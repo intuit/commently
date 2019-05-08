@@ -1,3 +1,19 @@
+# v0.1.30 (Wed May 08 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency eslint-config-prettier to v4.2.0 [#71](https://github.com/intuit/commently/pull/71) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lint-staged to v8.1.6 [#76](https://github.com/intuit/commently/pull/76) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency typescript to v3.4.5 [#68](https://github.com/intuit/commently/pull/68) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency husky to v2 [#69](https://github.com/intuit/commently/pull/69) ([@renovate-bot](https://github.com/renovate-bot))
+- Update typescript-eslint monorepo to v1.7.0 [#65](https://github.com/intuit/commently/pull/65) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.29 (Wed May 08 2019)
 
 #### 🐛  Bug Fix
