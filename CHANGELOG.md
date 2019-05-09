@@ -1,3 +1,24 @@
+# v0.1.33 (Thu May 09 2019)
+
+### Release Notes
+
+_From #79_
+
+<details>
+<summary>intuit/auto</summary>
+
+---
+
+#### 🐛  Bug Fix
+
+- Update dependency auto to v6 [#79](https://github.com/intuit/commently/pull/79) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.32 (Thu May 09 2019)
 
 #### 🐛  Bug Fix
