@@ -1,3 +1,16 @@
+# v0.1.32 (Thu May 09 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency @types/jest to v24.0.12 [#75](https://github.com/intuit/commently/pull/75) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.13.4 [#70](https://github.com/intuit/commently/pull/70) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.31 (Thu May 09 2019)
 
 #### 🐛  Bug Fix
