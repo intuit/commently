@@ -1,3 +1,15 @@
+# v0.1.31 (Thu May 09 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency jest to v24.8.0 [#78](https://github.com/intuit/commently/pull/78) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.30 (Wed May 08 2019)
 
 #### 🐛  Bug Fix
