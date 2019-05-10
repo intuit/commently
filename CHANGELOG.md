@@ -1,3 +1,93 @@
+# v0.1.34 (Fri May 10 2019)
+
+### Release Notes
+
+_From #81_
+
+<details>
+<summary>intuit/auto</summary>
+
+### [`v6.4.0`](https://togithub.com/intuit/auto/blob/master/CHANGELOG.md#v640-Thu-May-09-2019)
+
+[Compare Source](https://togithub.com/intuit/auto/compare/v6.3.5...v6.4.0)
+
+##### 🚀  Enhancement
+
+-   update canary to update pr body when there is a pr [#&#8203;401](https://togithub.com/intuit/auto/pull/401) ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+##### 🔩 Dependency Updates
+
+-   Greenkeeper/@&#8203;octokit/plugin throttling 2.5.0 [#&#8203;400](https://togithub.com/intuit/auto/pull/400) ([@&#8203;greenkeeper\[bot\]](https://togithub.com/greenkeeper[bot]))
+
+##### Authors: 2
+
+-   Andrew Lisowski ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+-   [@&#8203;greenkeeper\[bot\]](https://togithub.com/greenkeeper[bot])
+
+* * *
+
+### [`v6.3.5`](https://togithub.com/intuit/auto/blob/master/CHANGELOG.md#v635-Thu-May-09-2019)
+
+[Compare Source](https://togithub.com/intuit/auto/compare/v6.3.4...v6.3.5)
+
+##### 🐛  Bug Fix
+
+-   lerna no-force-publish release conflict [#&#8203;399](https://togithub.com/intuit/auto/pull/399) ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+##### Authors: 1
+
+-   Andrew Lisowski ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+* * *
+
+### [`v6.3.4`](https://togithub.com/intuit/auto/blob/master/CHANGELOG.md#v634-Thu-May-09-2019)
+
+[Compare Source](https://togithub.com/intuit/auto/compare/v6.3.3...v6.3.4)
+
+##### 🐛  Bug Fix
+
+-   conventional-commit plugin: should omit PR merge commits when a commit in the PR has CC commit message [#&#8203;395](https://togithub.com/intuit/auto/pull/395) ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+##### 📚 Blog Post
+
+-   conventional-commits plugin blog post [#&#8203;394](https://togithub.com/intuit/auto/pull/394) ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+##### Authors: 1
+
+-   Andrew Lisowski ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+* * *
+
+### [`v6.3.3`](https://togithub.com/intuit/auto/blob/master/CHANGELOG.md#v633-Thu-May-09-2019)
+
+[Compare Source](https://togithub.com/intuit/auto/compare/v6.3.2...v6.3.3)
+
+##### 📝  Documentation
+
+-   Fix grammar in getting started documentation [#&#8203;396](https://togithub.com/intuit/auto/pull/396) ([@&#8203;djpowers](https://togithub.com/djpowers))
+
+##### Authors: 1
+
+-   Dave Powers ([@&#8203;djpowers](https://togithub.com/djpowers))
+
+* * *
+
+</details>
+
+---
+
+---
+
+#### 🐛  Bug Fix
+
+- Update dependency auto to v6.4.0 [#81](https://github.com/intuit/commently/pull/81) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.33 (Thu May 09 2019)
 
 ### Release Notes
