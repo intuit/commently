@@ -985,10 +985,10 @@
   dependencies:
     bottleneck "^2.15.3"
 
-"@octokit/plugin-throttling@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-throttling/-/plugin-throttling-2.4.0.tgz#add1bd6a797aa210ce860e8bbe7f7505ba5e4d99"
-  integrity sha512-0bYfgQdqAtWiqXvS6oKMiousTno+e3pFoaYS57LpAp8p56Far49/vpGvbEvBUuNyoUFgOcTGm5WTpO1IPptHuQ==
+"@octokit/plugin-throttling@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-throttling/-/plugin-throttling-2.5.0.tgz#220128b9b234e9d737be4eab446df8c1f9b5cbab"
+  integrity sha512-/At81g5SRkzYcdajozmZkHYhTSltXhUs5C6rDx3uHTD7skXVx/+0DOdAn2kx6agm+BjZSLYMdDsnrRij8jRiTg==
   dependencies:
     bottleneck "^2.15.3"
 
@@ -1441,17 +1441,17 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@6.3.2:
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/auto/-/auto-6.3.2.tgz#5f6f77513d4a427546d0486b141d088afe1ae403"
-  integrity sha512-MV/eVRoxrfMi7bKLZ6WOZmbrUOcU0b/xVUXBNIG3E21wwzCCDvCpMG/+wpaljJsqlTs8YYR/Zlz4HS+PpC2udw==
+auto@6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-6.4.0.tgz#efd5152177b9c04e4abd5c3b72839974a3dce7df"
+  integrity sha512-sxiD1mnH55PCWwsz4TO38MLmdWStfCxf9ymuj7TVF2cKxULn452j+YGaWE3QPe+5yfrvHKS3p+hjYTp/1vWdmg==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
     "@hutson/set-npm-auth-token-for-ci" "^4.0.0"
     "@octokit/graphql" "^2.1.1"
     "@octokit/plugin-enterprise-compatibility" "^1.1.0"
     "@octokit/plugin-retry" "^2.2.0"
-    "@octokit/plugin-throttling" "^2.4.0"
+    "@octokit/plugin-throttling" "^2.5.0"
     "@octokit/rest" "^16.24.1"
     arr-flatten "^1.1.0"
     chalk "^2.4.2"
