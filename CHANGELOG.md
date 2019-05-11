@@ -1,3 +1,60 @@
+# v0.1.35 (Sat May 11 2019)
+
+### Release Notes
+
+_From #83_
+
+<details>
+<summary>intuit/auto</summary>
+
+### [`v6.5.0`](https://togithub.com/intuit/auto/blob/master/CHANGELOG.md#v650-Fri-May-10-2019)
+
+[Compare Source](https://togithub.com/intuit/auto/compare/v6.4.1...v6.5.0)
+
+##### 🚀  Enhancement
+
+-   Add --delete to `comment` and `pr-body` [#&#8203;403](https://togithub.com/intuit/auto/pull/403) ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+##### Authors: 1
+
+-   Andrew Lisowski ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+* * *
+
+### [`v6.4.1`](https://togithub.com/intuit/auto/blob/master/CHANGELOG.md#v641-Fri-May-10-2019)
+
+[Compare Source](https://togithub.com/intuit/auto/compare/v6.4.0...v6.4.1)
+
+##### 🐛  Bug Fix
+
+-   fix jira PR titles without additional subject [#&#8203;404](https://togithub.com/intuit/auto/pull/404) ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+##### 📝  Documentation
+
+-   update docs for canary [#&#8203;402](https://togithub.com/intuit/auto/pull/402) ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+##### Authors: 1
+
+-   Andrew Lisowski ([@&#8203;hipstersmoothie](https://togithub.com/hipstersmoothie))
+
+* * *
+
+</details>
+
+---
+
+---
+
+#### 🐛  Bug Fix
+
+- Update dependency auto to v6.5.0 [#83](https://github.com/intuit/commently/pull/83) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.34 (Fri May 10 2019)
 
 ### Release Notes
