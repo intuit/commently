@@ -1,3 +1,42 @@
+# v0.1.38 (Tue May 14 2019)
+
+### Release Notes
+
+_From #86_
+
+<details>
+<summary>intuit/auto</summary>
+
+### [`v6.5.1`](https://togithub.com/intuit/auto/blob/master/CHANGELOG.md#v651-Mon-May-13-2019)
+
+[Compare Source](https://togithub.com/intuit/auto/compare/v6.5.0...v6.5.1)
+
+##### 📝  Documentation
+
+-   typo [#&#8203;405](https://togithub.com/intuit/auto/pull/405) ([@&#8203;zephraph](https://togithub.com/zephraph))
+
+##### Authors: 1
+
+-   Justin Bennett ([@&#8203;zephraph](https://togithub.com/zephraph))
+
+* * *
+
+</details>
+
+---
+
+---
+
+#### 🐛  Bug Fix
+
+- Update dependency auto to v6.5.1 [#86](https://github.com/intuit/commently/pull/86) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.37 (Tue May 14 2019)
 
 #### 🐛  Bug Fix
