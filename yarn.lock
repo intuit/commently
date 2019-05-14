@@ -1441,10 +1441,10 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@6.5.0:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/auto/-/auto-6.5.0.tgz#f264d62a334110c5081b27094eb82231d9628bec"
-  integrity sha512-GgtydiFs3MAR4hjCGq8iFGOk6Gqi9scVH8TFRlOjxhriXunGWONwBpzzJ8BSU9crKsQsAY2oI2Pd+2jRjxxP2A==
+auto@6.5.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-6.5.1.tgz#f7272953dca9c24bab504945c70a7af47dd13019"
+  integrity sha512-e7wrDFttO6fWCDgLrqJ98pSpI5Mq0ibIMFIt8GeK3i5b/3Txpn4t2RpFg4HlxIZ2bJeoan/8fbgkWL/ufli37g==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
     "@hutson/set-npm-auth-token-for-ci" "^4.0.0"
