@@ -1,3 +1,35 @@
+# v0.1.36 (Tue May 14 2019)
+
+### Release Notes
+
+_From #88_
+
+<details>
+<summary>typicode/husky</summary>
+
+### [`v2.3.0`](https://togithub.com/typicode/husky/blob/master/CHANGELOG.md#&#8203;230)
+
+[Compare Source](https://togithub.com/typicode/husky/compare/v2.2.0...v2.3.0)
+
+-   Make `HUSKY_DEBUG=1` effective like `HUSKY_DEBUG=true`
+-   Refactor script to point to `run-node/run-node` rather than `.bin/run-node`
+
+</details>
+
+---
+
+---
+
+#### 🐛  Bug Fix
+
+- Update dependency husky to v2.3.0 [#88](https://github.com/intuit/commently/pull/88) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.35 (Sat May 11 2019)
 
 ### Release Notes
