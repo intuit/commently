@@ -1,3 +1,202 @@
+# v0.1.41 (Wed May 15 2019)
+
+### Release Notes
+
+     _From #85_
+
+   <details>
+<summary>prettier/prettier</summary>
+
+### [`v1.17.1`](https://togithub.com/prettier/prettier/blob/master/CHANGELOG.md#&#8203;1171)
+
+[Compare Source](https://togithub.com/prettier/prettier/compare/1.17.0...1.17.1)
+
+[diff](https://togithub.com/prettier/prettier/compare/1.17.0...1.17.1)
+
+-   Range: Fix ranged formatting not using the correct line width ([#&#8203;6050] by [@&#8203;mathieulj])
+
+<!-- prettier-ignore -->
+
+```js
+// Input
+function f() {
+ if (true) {
+   call("this line is 79 chars", "long", "it should", "stay as single line");
+ }
+}
+
+// Output (Prettier 1.17.0 run with --range-start 30 --range-end 110)
+function f() {
+ if (true) {
+   call(
+     "this line is 79 chars",
+     "long",
+     "it should",
+     "stay as single line"
+   );
+ }
+}
+
+// Output (Prettier 1.17.0 run without range)
+function f() {
+ if (true) {
+   call("this line is 79 chars", "long", "it should", "stay as single line");
+ }
+}
+
+// Output (Prettier 1.17.1 with and without range)
+function f() {
+ if (true) {
+   call("this line is 79 chars", "long", "it should", "stay as single line");
+ }
+}
+```
+
+-   JavaScript: Fix closure compiler typecasts ([#&#8203;5947] by [@&#8203;jridgewell])
+
+If a closing parenthesis follows after a typecast in an inner expression, the typecast would wrap everything to the that following parenthesis.
+
+<!-- prettier-ignore -->
+
+```js
+// Input
+test(/** @&#8203;type {!Array} */(arrOrString).length);
+test(/** @&#8203;type {!Array} */((arrOrString)).length + 1);
+
+// Output (Prettier 1.17.0)
+test(/** @&#8203;type {!Array} */ (arrOrString.length));
+test(/** @&#8203;type {!Array} */ (arrOrString.length + 1));
+
+// Output (Prettier 1.17.1)
+test(/** @&#8203;type {!Array} */ (arrOrString).length);
+test(/** @&#8203;type {!Array} */ (arrOrString).length + 1);
+```
+
+-   JavaScript: respect parenthesis around optional chaining before await ([#&#8203;6087] by [@&#8203;evilebottnawi])
+
+<!-- prettier-ignore -->
+
+```js
+// Input
+async function myFunction() {
+ var x = (await foo.bar.blah)?.hi;
+}
+
+// Output (Prettier 1.17.0)
+async function myFunction() {
+ var x = await foo.bar.blah?.hi;
+}
+
+// Output (Prettier 1.17.1)
+async function myFunction() {
+ var x = (await foo.bar.blah)?.hi;
+}
+```
+
+-   Handlebars: Fix {{else}}{{#if}} into {{else if}} merging ([#&#8203;6080] by [@&#8203;dcyriller])
+
+<!-- prettier-ignore -->
+
+   // Input
+   {{#if a}}
+     a
+   {{else}}
+     {{#if c}}
+       c
+     {{/if}}
+     e
+   {{/if}}
+
+   // Output (Prettier 1.17.0)
+   {{#if a}}
+     a
+   {{else if c}}
+     c
+   e
+   {{/if}}
+
+   // Output (Prettier 1.17.1)
+   Code Sample
+   {{#if a}}
+     a
+   {{else}}
+     {{#if c}}
+       c
+     {{/if}}
+     e
+   {{/if}}
+
+-   JavaScript: Improved multiline closure compiler typecast comment detection ([#&#8203;6070] by [@&#8203;yangsu])
+
+Previously, multiline closure compiler typecast comments with lines that
+start with \* weren't flagged correctly and the subsequent parenthesis were
+stripped. Prettier 1.17.1 fixes this issue.
+
+<!-- prettier-ignore -->
+
+```js
+// Input
+const style =/**
+* @&#8203;type {{
+*   width: number,
+* }}
+*/({
+ width,
+});
+
+// Output (Prettier 1.17.0)
+const style =/**
+* @&#8203;type {{
+*   width: number,
+* }}
+*/ {
+ width,
+};
+
+// Output (Prettier 1.17.1)
+const style =/**
+* @&#8203;type {{
+*   width: number,
+* }}
+*/({
+ width,
+});
+```
+
+[@&#8203;mathieulj]: https://togithub.com/mathieulj
+
+[@&#8203;yangsu]: https://togithub.com/yangsu
+
+[@&#8203;dcyriller]: https://togithub.com/dcyriller
+
+[@&#8203;jridgewell]: https://togithub.com/jridgewell
+
+[@&#8203;evilebottnawi]: https://togithub.com/evilebottnawi
+
+[#&#8203;6050]: https://togithub.com/prettier/prettier/pull/6050
+
+[#&#8203;6070]: https://togithub.com/prettier/prettier/pull/6070
+
+[#&#8203;6080]: https://togithub.com/prettier/prettier/pull/6080
+
+[#&#8203;6087]: https://togithub.com/prettier/prettier/pull/6087
+
+</details>
+
+---
+
+---
+
+#### 🐛  Bug Fix
+
+- Update dependency prettier to v1.17.1 [#85](https://github.com/intuit/commently/pull/85) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.40 (Wed May 15 2019)
 
 ### Release Notes
