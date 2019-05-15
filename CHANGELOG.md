@@ -1,3 +1,86 @@
+# v0.1.39 (Wed May 15 2019)
+
+### Release Notes
+
+_From #89_
+
+<details>
+<summary>lerna/lerna</summary>
+
+### [`v3.14.0`](https://togithub.com/lerna/lerna/blob/master/CHANGELOG.md#&#8203;3140httpsgithubcomlernalernacomparev3134v3140-2019-05-14)
+
+[Compare Source](https://togithub.com/lerna/lerna/compare/v3.13.4...v3.14.0)
+
+##### Bug Fixes
+
+-   **add:** Never pass filter options to nested bootstrap ([9a5a29c](https://togithub.com/lerna/lerna/commit/9a5a29c)), closes [#&#8203;1989](https://togithub.com/lerna/lerna/issues/1989)
+-   **run-lifecycle:** Bump `npm-lifecycle` dependency to avoid noisy audit warning ([ea7c20d](https://togithub.com/lerna/lerna/commit/ea7c20d))
+
+##### Features
+
+-   **conventional-commits:** Add conventional prerelease/graduation ([#&#8203;1991](https://togithub.com/lerna/lerna/issues/1991)) ([5d84b61](https://togithub.com/lerna/lerna/commit/5d84b61)), closes [#&#8203;1433](https://togithub.com/lerna/lerna/issues/1433) [#&#8203;1675](https://togithub.com/lerna/lerna/issues/1675)
+-   **dist-tag:** Prompt for OTP when required ([af870bb](https://togithub.com/lerna/lerna/commit/af870bb))
+-   **exec:** Add just-in-time queue management ([23736e5](https://togithub.com/lerna/lerna/commit/23736e5))
+-   **import:** Add `--preserve-commit` option ([#&#8203;2079](https://togithub.com/lerna/lerna/issues/2079)) ([6a7448d](https://togithub.com/lerna/lerna/commit/6a7448d))
+-   **link:** generate shims for missing 'bin' scripts ([#&#8203;2059](https://togithub.com/lerna/lerna/issues/2059)) ([90acdde](https://togithub.com/lerna/lerna/commit/90acdde)), closes [#&#8203;1444](https://togithub.com/lerna/lerna/issues/1444)
+-   **listable:** Use QueryGraph.toposort() helper ([84ce674](https://togithub.com/lerna/lerna/commit/84ce674))
+-   **publish:** Add `--otp` option ([6fcbc36](https://togithub.com/lerna/lerna/commit/6fcbc36)), closes [#&#8203;2076](https://togithub.com/lerna/lerna/issues/2076)
+-   **publish:** Add just-in-time queue management ([ae6471c](https://togithub.com/lerna/lerna/commit/ae6471c))
+-   **publish:** Add OTP prompt during publish ([#&#8203;2084](https://togithub.com/lerna/lerna/issues/2084)) ([c56bda1](https://togithub.com/lerna/lerna/commit/c56bda1)), closes [#&#8203;1091](https://togithub.com/lerna/lerna/issues/1091)
+-   **publish:** Display uncommitted changes when validation fails ([#&#8203;2066](https://togithub.com/lerna/lerna/issues/2066)) ([ea41fe9](https://togithub.com/lerna/lerna/commit/ea41fe9))
+-   **query-graph:** Add toposort() helper ([90759c2](https://togithub.com/lerna/lerna/commit/90759c2))
+-   **run:** Add just-in-time queue management ([#&#8203;2045](https://togithub.com/lerna/lerna/issues/2045)) ([6eca172](https://togithub.com/lerna/lerna/commit/6eca172))
+-   **run:** Extract `@lerna/run-topologically` ([3a8b175](https://togithub.com/lerna/lerna/commit/3a8b175))
+-   **version:** Add just-in-time queue management ([290539b](https://togithub.com/lerna/lerna/commit/290539b))
+
+#### [3.13.4](https://togithub.com/lerna/lerna/compare/v3.13.3...v3.13.4) (2019-04-24)
+
+##### Bug Fixes
+
+-   **import:** Avoid "unrecognized input" error from colors when using `--flatten` ([#&#8203;2037](https://togithub.com/lerna/lerna/issues/2037)) ([51625fa](https://togithub.com/lerna/lerna/commit/51625fa)), closes [#&#8203;1644](https://togithub.com/lerna/lerna/issues/1644)
+-   **version:** Resolve prerelease for version without bump ([#&#8203;2041](https://togithub.com/lerna/lerna/issues/2041)) ([aa11325](https://togithub.com/lerna/lerna/commit/aa11325))
+-   **version:** Search for complete tag prefix when composing GitHub releases ([024a6ab](https://togithub.com/lerna/lerna/commit/024a6ab)), closes [#&#8203;2038](https://togithub.com/lerna/lerna/issues/2038)
+
+#### [3.13.3](https://togithub.com/lerna/lerna/compare/v3.13.2...v3.13.3) (2019-04-17)
+
+##### Bug Fixes
+
+-   **child-process:** Centralize `exitCode` translation from string codes into numbers ([09c0103](https://togithub.com/lerna/lerna/commit/09c0103)), closes [#&#8203;2031](https://togithub.com/lerna/lerna/issues/2031)
+-   **docs:** Add missing docs for `--tag-version-prefix` ([#&#8203;2035](https://togithub.com/lerna/lerna/issues/2035)) ([ff9c476](https://togithub.com/lerna/lerna/commit/ff9c476)), closes [#&#8203;1924](https://togithub.com/lerna/lerna/issues/1924)
+-   **exec:** Handle node string error codes before setting process.exitCode ([#&#8203;2031](https://togithub.com/lerna/lerna/issues/2031)) ([c599c64](https://togithub.com/lerna/lerna/commit/c599c64))
+
+#### [3.13.2](https://togithub.com/lerna/lerna/compare/v3.13.1...v3.13.2) (2019-04-08)
+
+##### Bug Fixes
+
+-   **lifecycles:** Avoid duplicating 'rooted leaf' lifecycles ([a7ad9b6](https://togithub.com/lerna/lerna/commit/a7ad9b6))
+
+#### [3.13.1](https://togithub.com/lerna/lerna/compare/v3.13.0...v3.13.1) (2019-02-26)
+
+##### Bug Fixes
+
+-   **deps:** cosmiconfig ^5.1.0 ([ed48950](https://togithub.com/lerna/lerna/commit/ed48950))
+-   **deps:** npm-packlist ^1.4.1 ([aaf822e](https://togithub.com/lerna/lerna/commit/aaf822e)), closes [#&#8203;1932](https://togithub.com/lerna/lerna/issues/1932)
+-   **deps:** pacote ^9.5.0 ([cdc2e17](https://togithub.com/lerna/lerna/commit/cdc2e17))
+-   **deps:** Upgrade octokit libs ([ea490cd](https://togithub.com/lerna/lerna/commit/ea490cd))
+-   **list:** Restore empty `--json` array output when no results ([2c925bd](https://togithub.com/lerna/lerna/commit/2c925bd)), closes [#&#8203;1945](https://togithub.com/lerna/lerna/issues/1945)
+
+</details>
+
+---
+
+---
+
+#### 🐛  Bug Fix
+
+- Update dependency lerna to v3.14.0 [#89](https://github.com/intuit/commently/pull/89) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.38 (Tue May 14 2019)
 
 ### Release Notes
