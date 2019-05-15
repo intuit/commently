@@ -1,3 +1,24 @@
+# v0.1.40 (Wed May 15 2019)
+
+### Release Notes
+
+_From #90_
+
+<details>
+<summary>okonet/lint-staged</summary>
+
+---
+
+#### 🐛  Bug Fix
+
+- Update dependency lint-staged to v8.1.7 [#90](https://github.com/intuit/commently/pull/90) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.39 (Wed May 15 2019)
 
 ### Release Notes
