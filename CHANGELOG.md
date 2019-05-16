@@ -1,3 +1,15 @@
+# v0.1.43 (Thu May 16 2019)
+
+#### 🐛  Bug Fix
+
+- Lock file maintenance [#84](https://github.com/intuit/commently/pull/84) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.42 (Thu May 16 2019)
 
 ### Release Notes
