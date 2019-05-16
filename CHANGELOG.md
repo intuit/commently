@@ -1,3 +1,36 @@
+# v0.1.42 (Thu May 16 2019)
+
+### Release Notes
+
+_From #91_
+
+<details>
+<summary>lerna/lerna</summary>
+
+### [`v3.14.1`](https://togithub.com/lerna/lerna/blob/master/CHANGELOG.md#&#8203;3141httpsgithubcomlernalernacomparev3140v3141-2019-05-15)
+
+[Compare Source](https://togithub.com/lerna/lerna/compare/v3.14.0...v3.14.1)
+
+##### Bug Fixes
+
+-   **collect-uncommitted:** Call `git` with correct arguments, test properly ([551e6e4](https://togithub.com/lerna/lerna/commit/551e6e4)), closes [#&#8203;2091](https://togithub.com/lerna/lerna/issues/2091)
+
+</details>
+
+---
+
+---
+
+#### 🐛  Bug Fix
+
+- Update dependency lerna to v3.14.1 [#91](https://github.com/intuit/commently/pull/91) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.41 (Wed May 15 2019)
 
 ### Release Notes
