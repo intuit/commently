@@ -1,3 +1,37 @@
+# v0.1.44 (Fri May 17 2019)
+
+### Release Notes
+
+  _From #92_
+
+<details>
+<summary>prettier/eslint-config-prettier</summary>
+
+### [`v4.3.0`](https://togithub.com/prettier/eslint-config-prettier/blob/master/CHANGELOG.md#Version-430-2019-05-16)
+
+[Compare Source](https://togithub.com/prettier/eslint-config-prettier/compare/v4.2.0...v4.3.0)
+
+-   Added: New [eslint-plugin-vue] rules: [vue/arrow-spacing],
+[vue/block-spacing], [vue/brace-style] and [vue/comma-dangle].
+-   Added: New [@&#8203;typescript-eslint/eslint-plugin] rules:
+[@&#8203;typescript-eslint/func-call-spacing] and [@&#8203;typescript-eslint/semi].
+
+</details>
+
+---
+
+---
+
+#### 🐛  Bug Fix
+
+- Update dependency eslint-config-prettier to v4.3.0 [#92](https://github.com/intuit/commently/pull/92) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.43 (Thu May 16 2019)
 
 #### 🐛  Bug Fix
