@@ -1,3 +1,54 @@
+# v0.1.46 (Sat May 18 2019)
+
+### Release Notes
+
+_From #82_
+
+<details>
+<summary>typescript-eslint/typescript-eslint</summary>
+
+### [`v1.9.0`](https://togithub.com/typescript-eslint/typescript-eslint/blob/master/CHANGELOG.md#&#8203;190httpsgithubcomtypescript-eslinttypescript-eslintcomparev180v190-2019-05-12)
+
+[Compare Source](https://togithub.com/typescript-eslint/typescript-eslint/compare/v1.8.0...v1.9.0)
+
+##### Bug Fixes
+
+-   **eslint-plugin:** Add missing dependency ([89c87cc](https://togithub.com/typescript-eslint/typescript-eslint/commit/89c87cc)), closes [#&#8203;516](https://togithub.com/typescript-eslint/typescript-eslint/issues/516)
+-   **eslint-plugin:** Fix exported name of eslint-recommended ([#&#8203;513](https://togithub.com/typescript-eslint/typescript-eslint/issues/513)) ([5c65350](https://togithub.com/typescript-eslint/typescript-eslint/commit/5c65350))
+
+##### Features
+
+-   **eslint-plugin:** add prefer-regexp-exec rule ([#&#8203;305](https://togithub.com/typescript-eslint/typescript-eslint/issues/305)) ([f61d421](https://togithub.com/typescript-eslint/typescript-eslint/commit/f61d421))
+
+### [`v1.8.0`](https://togithub.com/typescript-eslint/typescript-eslint/blob/master/CHANGELOG.md#&#8203;190httpsgithubcomtypescript-eslinttypescript-eslintcomparev180v190-2019-05-12)
+
+[Compare Source](https://togithub.com/typescript-eslint/typescript-eslint/compare/v1.7.0...v1.8.0)
+
+##### Bug Fixes
+
+-   **eslint-plugin:** Add missing dependency ([89c87cc](https://togithub.com/typescript-eslint/typescript-eslint/commit/89c87cc)), closes [#&#8203;516](https://togithub.com/typescript-eslint/typescript-eslint/issues/516)
+-   **eslint-plugin:** Fix exported name of eslint-recommended ([#&#8203;513](https://togithub.com/typescript-eslint/typescript-eslint/issues/513)) ([5c65350](https://togithub.com/typescript-eslint/typescript-eslint/commit/5c65350))
+
+##### Features
+
+-   **eslint-plugin:** add prefer-regexp-exec rule ([#&#8203;305](https://togithub.com/typescript-eslint/typescript-eslint/issues/305)) ([f61d421](https://togithub.com/typescript-eslint/typescript-eslint/commit/f61d421))
+
+</details>
+
+---
+
+---
+
+#### 🐛  Bug Fix
+
+- Update typescript-eslint monorepo to v1.9.0 [#82](https://github.com/intuit/commently/pull/82) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.45 (Sat May 18 2019)
 
 #### 🐛  Bug Fix
