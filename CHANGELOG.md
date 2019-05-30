@@ -1,3 +1,15 @@
+# v0.1.49 (Thu May 30 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency typescript to v3.5.1 [#97](https://github.com/intuit/commently/pull/97) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.48 (Mon May 27 2019)
 
 #### 🐛  Bug Fix
