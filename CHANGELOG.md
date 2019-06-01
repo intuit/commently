@@ -1,3 +1,15 @@
+# v0.1.51 (Sat Jun 01 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency auto to v7 [#94](https://github.com/intuit/commently/pull/94) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.50 (Fri May 31 2019)
 
 #### 🐛  Bug Fix
