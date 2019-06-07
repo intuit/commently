@@ -1,3 +1,15 @@
+# v0.1.53 (Fri Jun 07 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency prettier to v1.18.0 [#104](https://github.com/intuit/commently/pull/104) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.52 (Tue Jun 04 2019)
 
 #### 🐛  Bug Fix
