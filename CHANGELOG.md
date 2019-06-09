@@ -1,3 +1,20 @@
+# v0.1.58 (Sun Jun 09 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency lerna to v3.15.0 [#108](https://github.com/intuit/commently/pull/108) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### ⚠️  Pushed to master
+
+- chore: extend intuit renovate config  (3680126+Aghassi@users.noreply.github.com)
+
+#### Authors: 2
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+- David (3680126+Aghassi@users.noreply.github.com)
+
+---
+
 # v0.1.57 (Sun Jun 09 2019)
 
 #### 🐛  Bug Fix
