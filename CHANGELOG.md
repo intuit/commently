@@ -1,3 +1,15 @@
+# v0.1.56 (Sun Jun 09 2019)
+
+#### 🐛  Bug Fix
+
+- Update dependency husky to v2.4.0 [#100](https://github.com/intuit/commently/pull/100) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.55 (Sat Jun 08 2019)
 
 #### 🐛  Bug Fix
