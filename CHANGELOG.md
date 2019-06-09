@@ -1,3 +1,16 @@
+# v0.1.57 (Sun Jun 09 2019)
+
+#### 🐛  Bug Fix
+
+- `commently`
+  - Update dependency env-ci to v4 [#102](https://github.com/intuit/commently/pull/102) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.1.56 (Sun Jun 09 2019)
 
 #### 🐛  Bug Fix
