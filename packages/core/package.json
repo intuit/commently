@@ -9,9 +9,9 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@octokit/rest": "^16.13.3",
-    "debug": "^4.1.1",
-    "env-ci": "^4.0.0"
+    "@octokit/rest": "16.13.3",
+    "debug": "4.1.1",
+    "env-ci": "4.1.1"
   },
   "devDependencies": {
     "@types/debug": "4.1.4",
