@@ -1,3 +1,15 @@
+# v0.2.5 (Thu Jun 13 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency typescript to v3.5.2 [#119](https://github.com/intuit/commently/pull/119) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.2.4 (Thu Jun 13 2019)
 
 #### 🐛  Bug Fix
