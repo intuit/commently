@@ -1,3 +1,15 @@
+# v2.1.1 (Tue Jun 25 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency eslint to v6.0.1 [#132](https://github.com/intuit/commently/pull/132) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v2.1.0 (Mon Jun 24 2019)
 
 #### 🚀  Enhancement
