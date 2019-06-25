@@ -23,7 +23,7 @@
     "@typescript-eslint/eslint-plugin": "1.11.0",
     "@typescript-eslint/parser": "1.11.0",
     "auto": "7.1.2",
-    "eslint": "6.0.0",
+    "eslint": "6.0.1",
     "eslint-config-prettier": "5.0.0",
     "eslint-config-xo": "0.26.0",
     "husky": "2.5.0",
