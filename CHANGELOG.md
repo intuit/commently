@@ -1,3 +1,15 @@
+# v5.0.0 (Mon Jul 01 2019)
+
+#### 💥  Breaking Change
+
+- chore(deps): update dependency husky to v3 [#139](https://github.com/intuit/commently/pull/139) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v4.0.0 (Mon Jul 01 2019)
 
 #### 💥  Breaking Change
