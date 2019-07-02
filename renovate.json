@@ -1,4 +1,9 @@
 {
   "extends": ["@intuit"],
+  "major": {
+    "labels": [
+      "dependency-update"
+    ]
+  },
   "lockFileMaintenance": { "enabled": true }
 }
