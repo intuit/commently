@@ -1,3 +1,20 @@
+# v5.0.2 (Wed Jul 03 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency lint-staged to v9.0.2 [#141](https://github.com/intuit/commently/pull/141) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### ⚠️  Pushed to master
+
+- chore: removed major label to prevent majors by auto  (3680126+Aghassi@users.noreply.github.com)
+
+#### Authors: 2
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+- David (3680126+Aghassi@users.noreply.github.com)
+
+---
+
 # v5.0.1 (Tue Jul 02 2019)
 
 #### 🐛  Bug Fix
