@@ -1,3 +1,16 @@
+# v5.2.3 (Tue Jul 09 2019)
+
+#### 🐛  Bug Fix
+
+- `commently`
+  - fix(deps): update dependency @octokit/rest to v16.28.3 [#148](https://github.com/intuit/commently/pull/148) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.2.2 (Tue Jul 09 2019)
 
 #### 🐛  Bug Fix
