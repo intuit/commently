@@ -1,3 +1,15 @@
+# v5.5.0 (Fri Jul 12 2019)
+
+#### 🚀  Enhancement
+
+- Bump lodash.template from 4.4.0 to 4.5.0 [#150](https://github.com/intuit/commently/pull/150) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v5.4.0 (Fri Jul 12 2019)
 
 #### 🚀  Enhancement
