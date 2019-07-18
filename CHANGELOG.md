@@ -1,3 +1,15 @@
+# v5.5.4 (Thu Jul 18 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency husky to v3.0.1 [#156](https://github.com/intuit/commently/pull/156) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.5.3 (Thu Jul 18 2019)
 
 #### 🐛  Bug Fix
