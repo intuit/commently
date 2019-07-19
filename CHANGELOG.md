@@ -1,3 +1,15 @@
+# v5.6.1 (Fri Jul 19 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency lerna to v3.16.1 [#158](https://github.com/intuit/commently/pull/158) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.6.0 (Fri Jul 19 2019)
 
 #### 🚀  Enhancement
