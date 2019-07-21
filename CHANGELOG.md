@@ -1,3 +1,15 @@
+# v5.8.0 (Sun Jul 21 2019)
+
+#### 🚀  Enhancement
+
+- chore(deps): update typescript-eslint monorepo to v1.13.0 [#160](https://github.com/intuit/commently/pull/160) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.7.0 (Sun Jul 21 2019)
 
 #### 🚀  Enhancement
