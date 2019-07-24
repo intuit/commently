@@ -28,7 +28,7 @@
     "eslint-config-xo": "0.26.0",
     "husky": "3.0.1",
     "jest": "24.8.0",
-    "lerna": "3.16.3",
+    "lerna": "3.16.4",
     "lint-staged": "9.2.0",
     "prettier": "1.18.2",
     "ts-jest": "24.0.2",
