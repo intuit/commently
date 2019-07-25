@@ -1,3 +1,15 @@
+# v5.8.6 (Thu Jul 25 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency lint-staged to v9.2.1 [#166](https://github.com/intuit/commently/pull/166) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.8.5 (Wed Jul 24 2019)
 
 #### 🐛  Bug Fix
