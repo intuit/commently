@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@atomist/slack-messages/-/slack-messages-1.1.0.tgz#82f6b0dc91498726d0df2541ba01dab4a6c5775f"
   integrity sha512-sai3gxAyFXVBa7A7AADdVcO8Nw0gV+bXHY9T4Ki447gqbMpAyyVj3V2qxY6wmdI9j5EcwPl0fOaBpFN3xEJTkw==
 
-"@auto-it/core@^7.2.2":
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-7.2.2.tgz#d6c2c0c19e8b9e28c5a20335bed50653e01d947f"
-  integrity sha512-C9YYEUZyTCkM9Ik93BpLUXTZASVscNZmlxqUvzlR9fEfVrznDsDO9dLyqU7L15RwrarQ8fa6bDuwGpM5hBeH3A==
+"@auto-it/core@^7.2.3":
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-7.2.3.tgz#d499e6cd361431edecfdd436327d711dfa3fd864"
+  integrity sha512-awbeh7YBpYrSv/XrbyfW8xcaTDsWUtAFZZ2YpjWXqk95VcVpcVKr/L0u/TiBm+cA+ZG44HAAg2MgN0kweDYx/A==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
     "@octokit/graphql" "^2.1.2"
@@ -36,12 +36,12 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-it/npm@^7.2.2":
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-7.2.2.tgz#994bb9ffb0da90c8e1a134b27c36b1df4dd9e0f7"
-  integrity sha512-/wY5hukW/V8Kru7ij+/bgD3Ug9u+YyrQPBabHmUHngTXsvwo52Ivfcdhb3SsZQt6oBL6qHWYnwc6E5oMUUNQ6A==
+"@auto-it/npm@^7.2.3":
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-7.2.3.tgz#c4f5342c5ec7ae5f96a33623ec3ec211faf947c9"
+  integrity sha512-9l+e4cQYUrApjXwqn6Sr7xvtSbbBvrdRLqPDLrtXWBDMhoj6xaeZmfC1JCd+GLFvWAasJ+qYgKeo6LXAMDWTCw==
   dependencies:
-    "@auto-it/core" "^7.2.2"
+    "@auto-it/core" "^7.2.3"
     env-ci "^3.2.0"
     get-monorepo-packages "^1.1.0"
     parse-author "^2.0.0"
@@ -52,12 +52,12 @@
     url-join "^4.0.0"
     user-home "^2.0.0"
 
-"@auto-it/released@^7.2.2":
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-7.2.2.tgz#1742552ba3efc89d46946b152329a8710a062528"
-  integrity sha512-uvTrZdzBbC+Ob8MDMlwluSAKt5S+Uc7nkNWG+0ZAsuZI+lJPvy6wIsOYM8pM/QHrY8bT+ZrO6pY3+WXiqUw4LQ==
+"@auto-it/released@^7.2.3":
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-7.2.3.tgz#b0536dcf81f5980c007c50f9b3f38405501802e6"
+  integrity sha512-lHsGBb3cpbeJ6IZ+E8C52dEjufbd9yv+92MN3nAwKJ6pQ0jZxpk3Ack1YR8tPKbFBVBy2XBWjKj7WePk4/Q74A==
   dependencies:
-    "@auto-it/core" "^7.2.2"
+    "@auto-it/core" "^7.2.3"
     deepmerge "^3.2.0"
 
 "@babel/code-frame@^7.0.0":
@@ -1222,10 +1222,10 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
-"@octokit/rest@16.28.6":
-  version "16.28.6"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.28.6.tgz#9e73104077c9c06cf3b1628603b4b0c55a117809"
-  integrity sha512-ERfzS6g6ZNPJkEUclxLenr+UEncbymCe//IBrWWdp59nslYDeJboq07Ue9brX05Uv0+SY3kwA33cdiVBVPAOMQ==
+"@octokit/rest@16.28.7":
+  version "16.28.7"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.28.7.tgz#a2c2db5b318da84144beba82d19c1a9dbdb1a1fa"
+  integrity sha512-cznFSLEhh22XD3XeqJw51OLSfyL2fcFKUO+v2Ep9MTAFfFLS1cK1Zwd1yEgQJmJoDnj4/vv3+fGGZweG+xsbIA==
   dependencies:
     "@octokit/request" "^5.0.0"
     "@octokit/request-error" "^1.0.2"
@@ -1741,14 +1741,14 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@7.2.2:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/auto/-/auto-7.2.2.tgz#5ab8c8de934bf8df4a5a43ac60ce7449b038a6a1"
-  integrity sha512-UJVrl5cGjSSzI8qkaRIFQ/FY3WhjQPkT8C7s40R2vM7uPGcK5zZf9BYZ2/ENKY43PTk95HY3kw2DztS4wk2/LQ==
+auto@7.2.3:
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-7.2.3.tgz#059cb0afecdaf30034ceef3451cd61b68025bfda"
+  integrity sha512-+CGQPERkylWUCoSfMAcy8JDl0O2ScJqdX04AeVlWUc6IFdXqKBMR79MzEK/m0xm+2+BK/D1uDPXmpJlcVRoYcw==
   dependencies:
-    "@auto-it/core" "^7.2.2"
-    "@auto-it/npm" "^7.2.2"
-    "@auto-it/released" "^7.2.2"
+    "@auto-it/core" "^7.2.3"
+    "@auto-it/npm" "^7.2.3"
+    "@auto-it/released" "^7.2.3"
     chalk "^2.4.2"
     command-line-args "^5.1.1"
     command-line-usage "^5.0.5"
