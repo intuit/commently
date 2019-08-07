@@ -1,3 +1,15 @@
+# v5.8.13 (Wed Aug 07 2019)
+
+#### 🐛  Bug Fix
+
+- fix(deps): update dependency @types/node to v10.14.15 [#173](https://github.com/intuit/commently/pull/173) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.8.12 (Mon Aug 05 2019)
 
 #### 🐛  Bug Fix
