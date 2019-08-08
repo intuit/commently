@@ -1,3 +1,16 @@
+# v5.8.15 (Thu Aug 08 2019)
+
+#### 🐛  Bug Fix
+
+- `commently`
+  - chore(deps): update dependency @types/debug to v4.1.5 [#175](https://github.com/intuit/commently/pull/175) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.8.14 (Thu Aug 08 2019)
 
 #### 🐛  Bug Fix
