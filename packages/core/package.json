@@ -1,6 +1,6 @@
 {
   "name": "commently",
-  "version": "5.8.13",
+  "version": "5.8.14",
   "description": "Easily comment on github issues and PRs",
   "main": "dist/core.js",
   "scripts": {
