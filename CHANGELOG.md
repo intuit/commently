@@ -1,3 +1,15 @@
+# v5.10.0 (Fri Aug 16 2019)
+
+#### 🚀  Enhancement
+
+- chore(deps): update dependency jest to v24.9.0 [#179](https://github.com/intuit/commently/pull/179) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.9.0 (Thu Aug 15 2019)
 
 #### 🚀  Enhancement
