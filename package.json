@@ -24,7 +24,7 @@
     "@typescript-eslint/parser": "1.13.0",
     "auto": "7.3.2",
     "eslint": "6.2.0",
-    "eslint-config-prettier": "6.0.0",
+    "eslint-config-prettier": "6.1.0",
     "eslint-config-xo": "0.26.0",
     "husky": "3.0.4",
     "jest": "24.9.0",
