@@ -1,3 +1,15 @@
+# v5.12.1 (Mon Aug 19 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency @types/jest to v24.0.18 [#188](https://github.com/intuit/commently/pull/188) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.12.0 (Mon Aug 19 2019)
 
 #### 🚀  Enhancement
