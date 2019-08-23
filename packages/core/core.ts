@@ -15,11 +15,6 @@ interface CommentlyArgs {
   key?: string;
 }
 
-interface EnvCi {
-  pr?: number;
-  slug?: string;
-}
-
 interface User {
   id: number;
 }
@@ -42,9 +37,10 @@ export default class Commently {
   constructor(args: CommentlyArgs) {
     this.debug = debug('commently');
 
-    const { pr, slug = '' } = envCi() as EnvCi;
+    const env = envCi();
+    const slug = ('slug' in env && env.slug) || '';
     const [owner, repo] = slug.split('/');
-    const prNumber = args.pr || pr;
+    const prNumber = args.pr || ('pr' in env && Number(env.pr));
 
     if (!prNumber) {
       throw new Error(
@@ -70,12 +66,8 @@ export default class Commently {
     }
 
     this.issueId = prNumber;
-    this.header = `<!-- \n ${this.key}-id: ${this.issueId} \n -->\n${
-      this.title
-    }\n`;
-    this.footer = `Courtesy of your **[${
-      this.key
-    }](https://github.com/intuit/commently)** bot :package::rocket:`;
+    this.header = `<!-- \n ${this.key}-id: ${this.issueId} \n -->\n${this.title}\n`;
+    this.footer = `Courtesy of your **[${this.key}](https://github.com/intuit/commently)** bot :package::rocket:`;
     this.delim = `<!-- ${this.key}-section -->\n\n`;
 
     this.debug('Initialized: owner=%s repo=%s', this.owner, this.repo);
