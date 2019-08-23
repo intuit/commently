@@ -40,6 +40,7 @@ commently: Easily comment on PRs
     --repo         String     :    The repo for the project. Detected in CI env
     --title        String     :    The title of your comment. Defaults to "Commently"
     --key.         String     :    The unique key for your comment. Defaults to "commently"
+    --useHistory   Boolean    :    Keep a history of the comments in the comment created by this library
     --help, -h     Boolean    :    Show the help dialog
     --verbose, -v  Boolean    :    Output the debug log
 ```

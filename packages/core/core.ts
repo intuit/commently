@@ -13,6 +13,8 @@ interface CommentlyArgs {
   title?: string;
   /** The unique key to identify the comment by, not shown to end users */
   key?: string;
+  /** Key a history of the comments in the comment created by this library */
+  useHistory?: boolean;
 }
 
 interface User {
@@ -25,6 +27,7 @@ export default class Commently {
 
   private user?: User;
   private readonly octokit: Octokit;
+  private readonly useHistory: boolean;
   private readonly owner: string;
   private readonly repo: string;
   private readonly title: string;
@@ -52,6 +55,7 @@ export default class Commently {
     this.key = args.key || 'commently';
     this.owner = args.owner || owner;
     this.repo = args.repo || repo;
+    this.useHistory = 'useHistory' in args ? Boolean(args.useHistory) : true;
 
     if (!this.owner) {
       throw new Error(
@@ -142,9 +146,12 @@ export default class Commently {
           .join('<br>')}</p>${historyDelim}\n</div></details>\n</br>`;
       }
 
-      const newComment = [header, `${body}\n`, history, footer].filter(
-        (part): part is string => typeof part === 'string'
-      );
+      const newComment = [
+        header,
+        `${body}\n`,
+        this.useHistory && history,
+        footer
+      ].filter((part): part is string => typeof part === 'string');
       parts.push(...newComment);
 
       return this.editComment(comment.id, parts.join(this.delim));

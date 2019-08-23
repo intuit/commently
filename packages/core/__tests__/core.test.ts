@@ -99,6 +99,11 @@ describe('commently', () => {
   });
 
   test('should not add history when useHistory is set to false', async () => {
+    const updateComment = jest.fn();
+    mockOcto.mockReturnValueOnce({
+      issues: { updateComment }
+    });
+
     const commently = new Commently({
       owner: 'foo',
       repo: 'bar',
@@ -123,6 +128,6 @@ describe('commently', () => {
     await commently.autoComment('another something');
 
     // @ts-ignore
-    expect(mockOcto).toHaveBeenCalledWith(comments[2]);
+    expect(updateComment.mock.calls[0][0].body).not.toContain('History');
   });
 });

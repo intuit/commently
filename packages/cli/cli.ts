@@ -12,6 +12,7 @@ const args = arg({
   '--repo': String,
   '--title': String,
   '--key': String,
+  '--useHistory': Boolean,
 
   '--help': Boolean,
   '--verbose': Boolean,
@@ -37,6 +38,7 @@ if (args['--help']) {
     --repo         String     :    The repo for the project. Detected in CI env
     --title        String     :    The title to your comment with. Defaults to "Commently"
     --key          String     :    The unique key to id your comment with. Usually the name of the bot. Defaults to "commently"
+    --useHistory   Boolean    :    Keep a history of the comments in the comment created by this library
     --help, -h     Boolean    :    Show the help dialog
     --verbose, -v  Boolean    :    Output the debug log
   `);
@@ -56,7 +58,8 @@ const commently = new Commently({
   owner: args['--owner'],
   repo: args['--repo'],
   title: args['--title'],
-  key: args['--key']
+  key: args['--key'],
+  useHistory: args['--useHistory']
 });
 
 commently
