@@ -1,14 +1,18 @@
 {
   "parser": "@typescript-eslint/parser",
   "extends": [
+    "plugin:jest/recommended",
     "plugin:@typescript-eslint/recommended",
     "xo/esnext",
     "prettier/@typescript-eslint",
     "prettier"
   ],
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint", "jest"],
   "parserOptions": {
     "project": "./tsconfig.json"
+  },
+  "env": {
+    "jest/globals": true
   },
   "rules": {
     "lines-between-class-members": "off",

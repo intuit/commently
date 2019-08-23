@@ -38,6 +38,7 @@ describe('commently', () => {
 
     it('should auto authenticate when token present', () => {
       process.env.GH_TOKEN = 'yes';
+      // eslint-disable-next-line no-new
       new Commently({ owner: 'foo', repo: 'bar', pr: 1 });
       expect(mockOcto).toHaveBeenCalledWith(
         expect.objectContaining({
@@ -48,6 +49,7 @@ describe('commently', () => {
 
     it('should NOT auto authenticate when no token present', () => {
       process.env.GH_TOKEN = undefined;
+      // eslint-disable-next-line no-new
       new Commently({ owner: 'foo', repo: 'bar', pr: 1 });
       expect(mockOcto).not.toHaveBeenCalledWith(
         expect.objectContaining({
@@ -94,5 +96,33 @@ describe('commently', () => {
     await expect(commently.getKeyedComment()).resolves.toStrictEqual(
       comments[2]
     );
+  });
+
+  test('should not add history when useHistory is set to false', async () => {
+    const commently = new Commently({
+      owner: 'foo',
+      repo: 'bar',
+      pr: 99,
+      title: 'test-title',
+      useHistory: false
+    });
+    const comments = [
+      {
+        user: {
+          id: 'user'
+        },
+        body: `${commently.header}\n and  something`
+      }
+    ];
+
+    // @ts-ignore
+    commently.getUser = jest.fn().mockResolvedValue({ id: 'user' });
+    // @ts-ignore
+    commently.getComments = jest.fn().mockResolvedValue(comments);
+
+    await commently.autoComment('another something');
+
+    // @ts-ignore
+    expect(mockOcto).toHaveBeenCalledWith(comments[2]);
   });
 });
