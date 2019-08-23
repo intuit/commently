@@ -1,3 +1,16 @@
+# v5.13.0 (Fri Aug 23 2019)
+
+#### 🚀  Enhancement
+
+- `commently-cli`, `commently`
+  - Add useHistory option [#192](https://github.com/intuit/commently/pull/192) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v5.12.4 (Tue Aug 20 2019)
 
 #### 🐛  Bug Fix
