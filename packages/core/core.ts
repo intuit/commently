@@ -3,11 +3,15 @@ import * as debug from 'debug';
 import * as envCi from 'env-ci';
 
 interface CommentlyArgs {
+  /** The PR to comment on. Is detected in CI environments */
   pr?: number;
+  /** The owner fo the repo to comment on. Is detected in CI environments */
   owner?: string;
+  /** The repo to comment on. Is detected in CI environments */
   repo?: string;
+  /** The title at the top of the comment */
   title?: string;
-  // They unique key to identify the comment by, not shown to end users
+  /** The unique key to identify the comment by, not shown to end users */
   key?: string;
 }
 
@@ -20,6 +24,7 @@ interface User {
   id: number;
 }
 
+/** Create a "commenter" that can comment on a pull request */
 export default class Commently {
   public readonly header: string;
 
@@ -87,6 +92,12 @@ export default class Commently {
     this.octokit = new Octokit(startUpArgs);
   }
 
+  /**
+   * Comment the body param on the pull requests
+   *
+   * @param {string} body - the comment to post
+   * @param {boolean} append - whether to append the comment to the last comment
+   */
   async autoComment(body: string, append = true) {
     this.debug('Auto Commenting: issueId=%s append?=%s', this.issueId, append);
 
