@@ -3,28 +3,31 @@ import * as debug from 'debug';
 import * as envCi from 'env-ci';
 
 interface CommentlyArgs {
+  /** The PR to comment on. Is detected in CI environments */
   pr?: number;
+  /** The owner fo the repo to comment on. Is detected in CI environments */
   owner?: string;
+  /** The repo to comment on. Is detected in CI environments */
   repo?: string;
+  /** The title at the top of the comment */
   title?: string;
-  // They unique key to identify the comment by, not shown to end users
+  /** The unique key to identify the comment by, not shown to end users */
   key?: string;
-}
-
-interface EnvCi {
-  pr?: number;
-  slug?: string;
+  /** Key a history of the comments in the comment created by this library */
+  useHistory?: boolean;
 }
 
 interface User {
   id: number;
 }
 
+/** Create a "commenter" that can comment on a pull request */
 export default class Commently {
   public readonly header: string;
 
   private user?: User;
   private readonly octokit: Octokit;
+  private readonly useHistory: boolean;
   private readonly owner: string;
   private readonly repo: string;
   private readonly title: string;
@@ -37,9 +40,10 @@ export default class Commently {
   constructor(args: CommentlyArgs) {
     this.debug = debug('commently');
 
-    const { pr, slug = '' } = envCi() as EnvCi;
+    const env = envCi();
+    const slug = ('slug' in env && env.slug) || '';
     const [owner, repo] = slug.split('/');
-    const prNumber = args.pr || pr;
+    const prNumber = args.pr || ('pr' in env && Number(env.pr));
 
     if (!prNumber) {
       throw new Error(
@@ -51,6 +55,7 @@ export default class Commently {
     this.key = args.key || 'commently';
     this.owner = args.owner || owner;
     this.repo = args.repo || repo;
+    this.useHistory = 'useHistory' in args ? Boolean(args.useHistory) : true;
 
     if (!this.owner) {
       throw new Error(
@@ -65,12 +70,8 @@ export default class Commently {
     }
 
     this.issueId = prNumber;
-    this.header = `<!-- \n ${this.key}-id: ${this.issueId} \n -->\n${
-      this.title
-    }\n`;
-    this.footer = `Courtesy of your **[${
-      this.key
-    }](https://github.com/intuit/commently)** bot :package::rocket:`;
+    this.header = `<!-- \n ${this.key}-id: ${this.issueId} \n -->\n${this.title}\n`;
+    this.footer = `Courtesy of your **[${this.key}](https://github.com/intuit/commently)** bot :package::rocket:`;
     this.delim = `<!-- ${this.key}-section -->\n\n`;
 
     this.debug('Initialized: owner=%s repo=%s', this.owner, this.repo);
@@ -87,6 +88,12 @@ export default class Commently {
     this.octokit = new Octokit(startUpArgs);
   }
 
+  /**
+   * Comment the body param on the pull requests
+   *
+   * @param {string} body - the comment to post
+   * @param {boolean} append - whether to append the comment to the last comment
+   */
   async autoComment(body: string, append = true) {
     this.debug('Auto Commenting: issueId=%s append?=%s', this.issueId, append);
 
@@ -139,9 +146,12 @@ export default class Commently {
           .join('<br>')}</p>${historyDelim}\n</div></details>\n</br>`;
       }
 
-      const newComment = [header, `${body}\n`, history, footer].filter(
-        (part): part is string => typeof part === 'string'
-      );
+      const newComment = [
+        header,
+        `${body}\n`,
+        this.useHistory && history,
+        footer
+      ].filter((part): part is string => typeof part === 'string');
       parts.push(...newComment);
 
       return this.editComment(comment.id, parts.join(this.delim));
