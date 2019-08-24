@@ -1,4 +1,4 @@
-/* eslint-disaable camelcase, @typescript-eslint/camelcase */
+/* eslint-disable camelcase, @typescript-eslint/camelcase */
 
 import * as Octokit from '@octokit/rest';
 import * as debug from 'debug';
