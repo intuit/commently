@@ -1,3 +1,16 @@
+# v5.13.2 (Sat Aug 24 2019)
+
+#### 🐛  Bug Fix
+
+- `commently`
+  - `number` deprecated, switch to `issue_number` [#194](https://github.com/intuit/commently/pull/194) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v5.13.1 (Fri Aug 23 2019)
 
 
