@@ -1,3 +1,5 @@
+/* eslint-disable camelcase, @typescript-eslint/camelcase */
+
 import * as Octokit from '@octokit/rest';
 import * as debug from 'debug';
 import * as envCi from 'env-ci';
@@ -190,7 +192,7 @@ export default class Commently {
     options: Partial<Octokit.IssuesListCommentsParams> = {}
   ) {
     const response = await this.octokit.issues.listComments({
-      number: this.issueId,
+      issue_number: this.issueId,
       owner: this.owner,
       repo: this.repo,
       ...options
@@ -221,7 +223,7 @@ export default class Commently {
   private async createComment(body: string) {
     return this.octokit.issues.createComment({
       body,
-      number: this.issueId,
+      issue_number: this.issueId,
       owner: this.owner,
       repo: this.repo
     });
