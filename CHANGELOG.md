@@ -1,3 +1,15 @@
+# v5.18.3 (Tue Sep 03 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency auto to v7.4.4 [#216](https://github.com/intuit/commently/pull/216) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.18.2 (Tue Sep 03 2019)
 
 #### 🐛  Bug Fix
