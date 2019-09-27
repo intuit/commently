@@ -63,7 +63,7 @@ GH_TOKEN=YOUR_TOKEN ./packages/cli/dist/cli.js -v --pr 510 --owner intuit --repo
 
 This will build both of the projects.
 
-### clean
+### Clean
 
 Remove all dependencies and build versions.
 
