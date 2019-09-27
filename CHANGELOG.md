@@ -1,3 +1,15 @@
+# v5.28.1 (Fri Sep 27 2019)
+
+#### 🐛  Bug Fix
+
+- Update README.md [#234](https://github.com/intuit/commently/pull/234) ([@ajmal1330](https://github.com/ajmal1330))
+
+#### Authors: 1
+
+- [@ajmal1330](https://github.com/ajmal1330)
+
+---
+
 # v5.28.0 (Fri Sep 27 2019)
 
 #### 🚀  Enhancement
