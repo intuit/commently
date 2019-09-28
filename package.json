@@ -27,7 +27,7 @@
     "eslint-config-prettier": "6.3.0",
     "eslint-config-xo": "0.27.1",
     "eslint-plugin-jest": "22.17.0",
-    "husky": "3.0.6",
+    "husky": "3.0.7",
     "jest": "24.9.0",
     "lerna": "3.16.4",
     "lint-staged": "9.4.0",
