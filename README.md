@@ -1,4 +1,4 @@
-# commently - Comment easily 😀💬
+# commently - comment easily 😀💬
 
 [![npm](https://img.shields.io/npm/v/commently.svg)](https://www.npmjs.com/package/commently)
 [![CircleCI](https://circleci.com/gh/intuit/commently/tree/master.svg?style=shield)](https://circleci.com/gh/intuit/commently/tree/master)
