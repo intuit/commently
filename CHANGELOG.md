@@ -1,3 +1,15 @@
+# v5.33.0 (Thu Oct 10 2019)
+
+#### 🚀  Enhancement
+
+- chore(deps): update dependency lerna to v3.17.0 [#257](https://github.com/intuit/commently/pull/257) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.32.5 (Wed Oct 09 2019)
 
 #### 🐛  Bug Fix
