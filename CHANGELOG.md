@@ -1,3 +1,24 @@
+# v5.34.0 (Fri Oct 11 2019)
+
+#### 🚀  Enhancement
+
+- `commently`
+  - fix(deps): update dependency @octokit/rest to v16.33.0 [#249](https://github.com/intuit/commently/pull/249) ([@renovate-bot](https://github.com/renovate-bot))
+- `commently`
+  - fix(deps): update dependency env-ci to v4.5.0 [#255](https://github.com/intuit/commently/pull/255) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🐛  Bug Fix
+
+- Bump mixin-deep from 1.3.1 to 1.3.2 [#201](https://github.com/intuit/commently/pull/201) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): update node.js to v8.16.2 [#258](https://github.com/intuit/commently/pull/258) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v5.33.0 (Thu Oct 10 2019)
 
 #### 🚀  Enhancement
