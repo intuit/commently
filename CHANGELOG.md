@@ -1,3 +1,15 @@
+# v5.35.0 (Sat Oct 12 2019)
+
+#### 🚀  Enhancement
+
+- chore(deps): update dependency eslint-plugin-jest to v22.19.0 [#259](https://github.com/intuit/commently/pull/259) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.34.0 (Fri Oct 11 2019)
 
 #### 🚀  Enhancement
