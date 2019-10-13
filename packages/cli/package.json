@@ -1,6 +1,6 @@
 {
   "name": "commently-cli",
-  "version": "5.35.1",
+  "version": "5.35.2",
   "description": "Easily comment on github issues and PRs from the CLI",
   "main": "cli.js",
   "bin": {
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "arg": "4.1.1",
-    "commently": "^5.35.1",
+    "commently": "^5.35.2",
     "log-symbols": "3.0.0"
   },
   "devDependencies": {
