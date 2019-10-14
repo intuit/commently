@@ -1,3 +1,15 @@
+# v5.35.3 (Mon Oct 14 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency @types/jest to v24.0.19 [#262](https://github.com/intuit/commently/pull/262) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.35.2 (Sun Oct 13 2019)
 
 #### 🐛  Bug Fix
