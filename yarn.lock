@@ -7,17 +7,17 @@
   resolved "https://registry.yarnpkg.com/@atomist/slack-messages/-/slack-messages-1.1.0.tgz#82f6b0dc91498726d0df2541ba01dab4a6c5775f"
   integrity sha512-sai3gxAyFXVBa7A7AADdVcO8Nw0gV+bXHY9T4Ki447gqbMpAyyVj3V2qxY6wmdI9j5EcwPl0fOaBpFN3xEJTkw==
 
-"@auto-it/core@^7.8.0":
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-7.8.0.tgz#f41dab7787a9b1fbc4f5edd4a2cb9ef7b254f34c"
-  integrity sha512-JDLl2CQ63unmFWjgsrYb5woQ3nQg13w9sXTNCOJm+R2ymAIQb5P9W49PMKCzZffpZwKa4O3e/+nM9DmWS/aoSA==
+"@auto-it/core@^7.9.0":
+  version "7.9.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-7.9.0.tgz#6519c2856dad0e4a0deef345e1db93ae73f6c6bf"
+  integrity sha512-CnBeND2h/Io6xqoUjIglRK4s+RlzqpuFPSBHr1YrHIfBWlgD3pPKhCrDiT3GTPKtwNJd0r4pNVUMZ/RWUEuU4w==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
     "@octokit/graphql" "^4.0.0"
     "@octokit/plugin-enterprise-compatibility" "^1.1.1"
     "@octokit/plugin-retry" "^2.2.0"
     "@octokit/plugin-throttling" "^2.6.0"
-    "@octokit/rest" "16.30.1"
+    "@octokit/rest" "16.33.1"
     await-to-js "^2.1.1"
     cosmiconfig "5.2.1"
     dedent "^0.7.0"
@@ -26,7 +26,7 @@
     enquirer "^2.3.0"
     env-ci "^4.1.1"
     gitlog "^3.1.2"
-    https-proxy-agent "^2.2.2"
+    https-proxy-agent "^3.0.0"
     import-cwd "^3.0.0"
     lodash.chunk "^4.2.0"
     node-fetch "2.6.0"
@@ -34,32 +34,35 @@
     signale "^1.4.0"
     tapable "^2.0.0-beta.2"
     tinycolor2 "^1.4.1"
+    tslib "1.10.0"
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-it/npm@^7.8.0":
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-7.8.0.tgz#3d33b777fc5fbd502c3771f1ad90f0f1ed1f8df6"
-  integrity sha512-ezKOm7IShb1xfgxpSFSyS3L7ofeKq1RCT9PEd0Ka+/jx4etqtv6DSEqVQtrW7aaCe9Ny+pTzWn0DkK8lqtjyhg==
+"@auto-it/npm@^7.9.0":
+  version "7.9.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-7.9.0.tgz#8e19974a5d1dd4e52b0b91bb918dfcb1030f2114"
+  integrity sha512-PVkS9DlEQAU7HP3BxOgf3xIFu5XTYb80cdAss8/v4ghL4gUwc9MKVfC3TCRBT0ThilOATuKFC0hFE2fHpbYlew==
   dependencies:
-    "@auto-it/core" "^7.8.0"
+    "@auto-it/core" "^7.9.0"
     env-ci "^4.1.1"
     get-monorepo-packages "^1.1.0"
     parse-author "^2.0.0"
     parse-github-url "1.0.2"
     registry-url "^5.1.0"
     semver "^6.0.0"
+    tslib "1.10.0"
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
     user-home "^2.0.0"
 
-"@auto-it/released@^7.8.0":
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-7.8.0.tgz#dc36c6cceb9f4455005c439b956c0ef1d9dd747c"
-  integrity sha512-umMipqLSYI2f3sgs9RafFRQ+53idF3pwsjyKtd6Ot/P+HOqrBlgqdWj+Ni/eE8He/Hbp31wJJLrh+vpwqB+1yg==
+"@auto-it/released@^7.9.0":
+  version "7.9.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-7.9.0.tgz#fbb3d23ffe5e305a3ab421998a76d069850908a9"
+  integrity sha512-53uy8AnmckhELqqyv8HO974ifHIThFI/K1S8wA2e6S7/cKHPEzFHYigX+/28g1dJsRksjeLdjI2PBYzBFc6I1A==
   dependencies:
-    "@auto-it/core" "^7.8.0"
+    "@auto-it/core" "^7.9.0"
     deepmerge "^4.0.0"
+    tslib "1.10.0"
 
 "@babel/code-frame@^7.0.0":
   version "7.0.0"
@@ -1209,24 +1212,6 @@
     once "^1.4.0"
     universal-user-agent "^4.0.0"
 
-"@octokit/rest@16.30.1":
-  version "16.30.1"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.30.1.tgz#03e6dfb93e9a9cd2b3bacb95c49a8c7923f42ad0"
-  integrity sha512-1n2QzTbbaBXNLpx7WHlcsSMdJvxSdKmerXQm+bMYlKDbQM19uq446ZpGs7Ynq5SsdLj1usIfgJ9gJf4LtcWkDw==
-  dependencies:
-    "@octokit/request" "^5.0.0"
-    "@octokit/request-error" "^1.0.2"
-    atob-lite "^2.0.0"
-    before-after-hook "^2.0.0"
-    btoa-lite "^1.0.0"
-    deprecation "^2.0.0"
-    lodash.get "^4.4.2"
-    lodash.set "^4.3.2"
-    lodash.uniq "^4.5.0"
-    octokit-pagination-methods "^1.1.0"
-    once "^1.4.0"
-    universal-user-agent "^4.0.0"
-
 "@octokit/rest@16.33.1":
   version "16.33.1"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.33.1.tgz#19229f5fd28d8e071644d37c249775ee40add433"
@@ -1745,19 +1730,20 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@7.8.0:
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/auto/-/auto-7.8.0.tgz#37a2f8f7f991f8f44b1466c7c6bc8206e247eab7"
-  integrity sha512-0yn62L10lLKJRpc7f1oO0oMai1WJqvw5Oxa2aT7yNX/U2zZbewGjPV33HT+GMhzm0kKkfSRUzA6rQ7IOHwwTsw==
+auto@7.9.0:
+  version "7.9.0"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-7.9.0.tgz#058afdc4e680c98cd3e1ba7becfdca8ce1e8e222"
+  integrity sha512-BXS5lu8zwhhLlq9LOLbXDct31RHzul2KaLiIk1tc66oSZMJKCX4XEZs1keSdRYGI+nMP1zSi0tK9ylxEgRxIjg==
   dependencies:
-    "@auto-it/core" "^7.8.0"
-    "@auto-it/npm" "^7.8.0"
-    "@auto-it/released" "^7.8.0"
+    "@auto-it/core" "^7.9.0"
+    "@auto-it/npm" "^7.9.0"
+    "@auto-it/released" "^7.9.0"
     chalk "^2.4.2"
     command-line-args "^5.1.1"
     command-line-usage "^6.0.2"
     dedent "^0.7.0"
     signale "^1.4.0"
+    tslib "1.10.0"
 
 await-to-js@^2.1.1:
   version "2.1.1"
@@ -3657,10 +3643,10 @@ https-proxy-agent@^2.2.1:
     agent-base "^4.1.0"
     debug "^3.1.0"
 
-https-proxy-agent@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.2.tgz#271ea8e90f836ac9f119daccd39c19ff7dfb0793"
-  integrity sha512-c8Ndjc9Bkpfx/vCJueCPy0jlP4ccCCSNDp8xwCZzPjKJUm+B+u9WX2x98Qx4n1PiMNTWo3D7KK5ifNV/yJyRzg==
+https-proxy-agent@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-3.0.0.tgz#0106efa5d63d6d6f3ab87c999fa4877a3fd1ff97"
+  integrity sha512-y4jAxNEihqvBI5F3SaO2rtsjIOnnNA8sEbuiP+UhJZJHeM2NRm6c09ax2tgqme+SgUUvjao2fJXF4h3D6Cb2HQ==
   dependencies:
     agent-base "^4.3.0"
     debug "^3.1.0"
@@ -7275,7 +7261,7 @@ ts-jest@24.1.0:
     semver "^5.5"
     yargs-parser "10.x"
 
-tslib@^1.8.1, tslib@^1.9.0:
+tslib@1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
