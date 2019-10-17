@@ -1,3 +1,15 @@
+# v5.37.1 (Thu Oct 17 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency eslint-config-xo to v0.27.2 [#268](https://github.com/intuit/commently/pull/268) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.37.0 (Wed Oct 16 2019)
 
 #### 🚀  Enhancement
