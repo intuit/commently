@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@atomist/slack-messages/-/slack-messages-1.1.0.tgz#82f6b0dc91498726d0df2541ba01dab4a6c5775f"
   integrity sha512-sai3gxAyFXVBa7A7AADdVcO8Nw0gV+bXHY9T4Ki447gqbMpAyyVj3V2qxY6wmdI9j5EcwPl0fOaBpFN3xEJTkw==
 
-"@auto-it/core@^7.9.1":
-  version "7.9.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-7.9.1.tgz#cf1ea5ba96db8a87fb89408702b467cbefe6f3f0"
-  integrity sha512-pDumFuTPtdsYZ5MI+Q4qXN92YKm050ntljxmWZz6Tbp6CFRqDziP03GT6LZV/auUl75XoqONHDfOQo3CYcVu8A==
+"@auto-it/core@^7.9.2":
+  version "7.9.2"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-7.9.2.tgz#6b5afd77f465c18aa9ebeabdcc3516602e859b5d"
+  integrity sha512-lV1rm8PpmER/SrVJZqkPPQP8T1/tv+G3TBkaDfuyMbOYdp/QFUjs0//Ysd3VMx8J5yW/eV9/V1hOO6YBDyIM9Q==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
     "@octokit/graphql" "^4.0.0"
@@ -38,12 +38,12 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-it/npm@^7.9.1":
-  version "7.9.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-7.9.1.tgz#9ef3602e519fa1df0fbed14f93cc9a819d37fca8"
-  integrity sha512-J0OKjWthR0n829mPcIrx0QfIE4yR6U0gNCOzGPZJiYFp/06CCY9iiDrSAtXombVByp1Yw3Z4W9tq0Yy5zW2F1A==
+"@auto-it/npm@^7.9.2":
+  version "7.9.2"
+  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-7.9.2.tgz#b97ba30f892894979a78e5382b14c1cab1c76cdf"
+  integrity sha512-z2gNsqO5aBw81dLciLc2UOpCqrua6NdweQIZgEoeOAEWF9FEgJLXlv2QA3zA5hgohpRzwrQaD+h9zyVw6lNTqw==
   dependencies:
-    "@auto-it/core" "^7.9.1"
+    "@auto-it/core" "^7.9.2"
     env-ci "^4.1.1"
     get-monorepo-packages "^1.1.0"
     parse-author "^2.0.0"
@@ -55,12 +55,12 @@
     url-join "^4.0.0"
     user-home "^2.0.0"
 
-"@auto-it/released@^7.9.1":
-  version "7.9.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-7.9.1.tgz#54cff7510bfef61e435f3adb1c5f756c2527c287"
-  integrity sha512-WcFhcHXN+MUS2hRBMfHGrke5oYQRl7HsBhu5+VDIJo7ZWJRiR4T6b+wuHaQcy+QP5CqlBr8/qbstTzrWinhVJA==
+"@auto-it/released@^7.9.2":
+  version "7.9.2"
+  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-7.9.2.tgz#71e4e71f40376349088b4de3047408debea83790"
+  integrity sha512-iztkooetG4E2dgnXSQrUnP8mTXAMA1RfnevsriARU1s07j+e0OqMua6lAWpXnhc73DD6uQhj63YrSq84dkdbwg==
   dependencies:
-    "@auto-it/core" "^7.9.1"
+    "@auto-it/core" "^7.9.2"
     deepmerge "^4.0.0"
     tslib "1.10.0"
 
@@ -1289,6 +1289,16 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/command-line-args@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@types/command-line-args/-/command-line-args-5.0.0.tgz#484e704d20dbb8754a8f091eee45cdd22bcff28c"
+  integrity sha512-4eOPXyn5DmP64MCMF8ePDvdlvlzt2a+F8ZaVjqmh2yFCpGjc1kI3kGnCFYX9SCsGTjQcWIyVZ86IHCEyjy/MNg==
+
+"@types/command-line-usage@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@types/command-line-usage/-/command-line-usage-5.0.1.tgz#99424950da567ba67b6b65caee57ff03c4e751ec"
+  integrity sha512-/xUgezxxYePeXhg5S04hUjxG9JZi+rJTs1+4NwpYPfSaS7BeDa6tVJkH6lN9Cb6rl8d24Fi2uX0s0Ngg2JT6gg==
+
 "@types/debug@4.1.5":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.5.tgz#b14efa8852b7768d898906613c23f688713e02cd"
@@ -1730,17 +1740,16 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@7.9.1:
-  version "7.9.1"
-  resolved "https://registry.yarnpkg.com/auto/-/auto-7.9.1.tgz#90995f9532e44c031526852ec2fe8ef305598eb9"
-  integrity sha512-92WmYiDzgoLQBlEV4WND/ZJy0GNJUyqpsgl03R9XuR9onx7FIAvxh0pDw38kL7XG0K3lFS0Q2rL1TYGSbqossw==
+auto@7.9.2:
+  version "7.9.2"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-7.9.2.tgz#0bd2bc4dd6d7328e0d37b36e0f2523b1a44ef717"
+  integrity sha512-frYVRTdKZpKlp1uh4PbA6eLQJyEj1lkTQMKxLYEiJbipLXW0MSTsGcIsJRC4sLFVElPYg8EMuAvuykRB9PlAkQ==
   dependencies:
-    "@auto-it/core" "^7.9.1"
-    "@auto-it/npm" "^7.9.1"
-    "@auto-it/released" "^7.9.1"
+    "@auto-it/core" "^7.9.2"
+    "@auto-it/npm" "^7.9.2"
+    "@auto-it/released" "^7.9.2"
     chalk "^2.4.2"
-    command-line-args "^5.1.1"
-    command-line-usage "^6.0.2"
+    command-line-application "^0.9.3"
     dedent "^0.7.0"
     signale "^1.4.0"
     tslib "1.10.0"
@@ -2151,6 +2160,20 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+command-line-application@^0.9.3:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/command-line-application/-/command-line-application-0.9.3.tgz#3c9ce8cc15fa38bf398fc2ef6e2755d2d15e6014"
+  integrity sha512-/xzhsmBjggqM1xqLKvNf6yEe1zu3VzDdhb6Z7PjW1G0lM0TNUvH3iKZGrC52xTlTilW/g23tishK8tYGxr+Tgg==
+  dependencies:
+    "@types/command-line-args" "^5.0.0"
+    "@types/command-line-usage" "^5.0.1"
+    chalk "^2.4.1"
+    command-line-args "^5.1.1"
+    command-line-usage "^6.0.0"
+    meant "^1.0.1"
+    remove-markdown "^0.3.0"
+    tslib "1.10.0"
+
 command-line-args@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/command-line-args/-/command-line-args-5.1.1.tgz#88e793e5bb3ceb30754a86863f0401ac92fd369a"
@@ -2161,7 +2184,7 @@ command-line-args@^5.1.1:
     lodash.camelcase "^4.3.0"
     typical "^4.0.0"
 
-command-line-usage@^6.0.2:
+command-line-usage@^6.0.0:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/command-line-usage/-/command-line-usage-6.0.2.tgz#b130e3495ae743ce4833e1c9373bbb0898275dda"
   integrity sha512-Jr9RQM43qWDwpRJOa0lgZw0LhiU8tgOqoR+xxIcb3eT5vFZi69fBWUODMSBtGUYI1qTlElPl3txFQY6rChVuXQ==
@@ -5067,6 +5090,11 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+meant@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/meant/-/meant-1.0.1.tgz#66044fea2f23230ec806fb515efea29c44d2115d"
+  integrity sha512-UakVLFjKkbbUwNWJ2frVLnnAtbb7D7DsloxRd3s/gDpI8rdv8W5Hp3NaDb+POBI1fQdeussER6NB8vpcRURvlg==
+
 meow@^3.3.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/meow/-/meow-3.7.0.tgz#72cb668b425228290abbfa856892587308a801fb"
@@ -6320,6 +6348,11 @@ registry-url@^5.1.0:
   integrity sha512-8acYXXTI0AkQv6RAOjE3vOaIXZkT9wo4LOFbBKYQEEnnMNBpKqdUrI6S4NT0KPIo/WVvJ5tE/X5LF/TQUf0ekw==
   dependencies:
     rc "^1.2.8"
+
+remove-markdown@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/remove-markdown/-/remove-markdown-0.3.0.tgz#5e4b667493a93579728f3d52ecc1db9ca505dc98"
+  integrity sha1-XktmdJOpNXlyjz1S7MHbnKUF3Jg=
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
