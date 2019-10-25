@@ -1,3 +1,15 @@
+# v5.43.0 (Fri Oct 25 2019)
+
+#### 🚀  Enhancement
+
+- chore(deps): update dependency eslint to v6.6.0 [#283](https://github.com/intuit/commently/pull/283) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.42.1 (Thu Oct 24 2019)
 
 #### 🐛  Bug Fix
