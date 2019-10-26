@@ -1,3 +1,15 @@
+# v5.44.0 (Sat Oct 26 2019)
+
+#### 🚀  Enhancement
+
+- chore(deps): update dependency eslint-config-prettier to v6.5.0 [#286](https://github.com/intuit/commently/pull/286) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.43.2 (Sat Oct 26 2019)
 
 #### 🐛  Bug Fix
