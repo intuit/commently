@@ -11,7 +11,7 @@
   "dependencies": {
     "@octokit/rest": "16.33.1",
     "debug": "4.1.1",
-    "env-ci": "4.5.0"
+    "env-ci": "4.5.1"
   },
   "devDependencies": {
     "@types/debug": "4.1.5",
