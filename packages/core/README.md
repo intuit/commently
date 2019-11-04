@@ -28,3 +28,26 @@ commently
     console.log(err);
   });
 ```
+
+## Gitlab
+
+We also now export an API compliant gitlab module. It needs a `GITLAB_TOKEN` to exist in your environment. It also needs a commit sha to fine your Merge Request.
+
+```javascript
+import { Gitlab } from 'commently/core';
+
+const commently = new Gitlab({
+  commit: 'commit-sha',
+  title: 'The Title of Your MR Comment'
+});
+
+commently
+  .autoComment('The body of your MR')
+  .then(response => {
+    console.log(symbols.success, `Successfully commented on ...}`);
+  })
+  .catch(err => {
+    console.log(symbols.error, 'Oops! Something went wrong...');
+    console.log(err);
+  });
+```

@@ -1,8 +1,9 @@
-/* eslint-disable camelcase, @typescript-eslint/camelcase */
+/* eslint-disable camelcase */
 
 import * as Octokit from '@octokit/rest';
 import * as debug from 'debug';
 import * as envCi from 'env-ci';
+import { buildKeyedComment } from './helpers';
 
 interface CommentlyArgs {
   /** The PR to comment on. Is detected in CI environments */
@@ -24,20 +25,20 @@ interface User {
 }
 
 /** Create a "commenter" that can comment on a pull request */
-export default class Commently {
+export class Github {
   public readonly header: string;
+  public readonly useHistory: boolean;
+  public readonly key: string;
+  public readonly footer: string;
+  public readonly delim: string;
+  public readonly debug: debug.IDebugger;
 
   private user?: User;
   private readonly octokit: Octokit;
-  private readonly useHistory: boolean;
   private readonly owner: string;
   private readonly repo: string;
   private readonly title: string;
-  private readonly key: string;
   private readonly issueId: number;
-  private readonly footer: string;
-  private readonly delim: string;
-  private readonly debug: debug.IDebugger;
 
   constructor(args: CommentlyArgs) {
     this.debug = debug('commently');
@@ -110,58 +111,13 @@ export default class Commently {
 
   private async editKeyedComment(
     comment: Octokit.IssuesListCommentsResponseItem,
-    body: string,
+    bodyIn: string,
     append = true
   ) {
-    this.debug('Editing existing Keyed Comment. id=%s', comment.id);
-    const historyDelim = `<!-- ${this.key}-history -->`;
-
-    if (append) {
-      const parts = comment.body.split(this.delim);
-      const header = parts.shift();
-      const last = (parts.shift() || '')
-        .replace('- ', '')
-        .replace(/`/g, '')
-        .replace('@', '<span>@</span>');
-      const footer = parts.pop();
-      let history = parts.shift();
-
-      if (history) {
-        const historyParts = history.split(historyDelim);
-        const historyHeader = historyParts.shift();
-        const historyFooter = historyParts.pop();
-        // Only keep 10 items in history
-        const historySubParts = (historyParts.pop() || '').split('<hr>');
-
-        if (historySubParts.length > 10) {
-          historySubParts.splice(0, historySubParts.length - 10);
-        }
-
-        historyParts.push(historySubParts.join('<hr>'));
-        historyParts.push(`<hr><p>${last.split('\n').join('<br>')}</p>`);
-        history = [historyHeader, historyParts.join('\n'), historyFooter].join(
-          `${historyDelim}`
-        );
-      } else {
-        history = `<details><summary>History</summary><div>\n${historyDelim}\n<hr><p>${last
-          .split('\n')
-          .join('<br>')}</p>${historyDelim}\n</div></details>\n</br>`;
-      }
-
-      const newComment = [
-        header,
-        `${body}\n`,
-        this.useHistory && history,
-        footer
-      ].filter((part): part is string => typeof part === 'string');
-      parts.push(...newComment);
-
-      return this.editComment(comment.id, parts.join(this.delim));
-    }
-
+    const {id, body} = buildKeyedComment.bind(this)(comment, bodyIn, append)
     return this.editComment(
-      comment.id,
-      `${this.header}${this.delim}${body}\n${this.delim}${this.footer}`
+      id,
+      body
     );
   }
 
@@ -192,7 +148,7 @@ export default class Commently {
     options: Partial<Octokit.IssuesListCommentsParams> = {}
   ) {
     const response = await this.octokit.issues.listComments({
-      issue_number: this.issueId,
+      issue_number: this.issueId, // eslint-disable-line @typescript-eslint/camelcase
       owner: this.owner,
       repo: this.repo,
       ...options
@@ -223,7 +179,7 @@ export default class Commently {
   private async createComment(body: string) {
     return this.octokit.issues.createComment({
       body,
-      issue_number: this.issueId,
+      issue_number: this.issueId, // eslint-disable-line @typescript-eslint/camelcase
       owner: this.owner,
       repo: this.repo
     });

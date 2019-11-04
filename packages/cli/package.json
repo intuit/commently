@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "arg": "4.1.1",
-    "commently": "^5.45.6",
+    "commently": "^5.46.0",
     "log-symbols": "3.0.0"
   },
   "devDependencies": {

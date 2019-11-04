@@ -1,4 +1,4 @@
-import Commently from '../core';
+import {Github} from '../src/github';
 
 const mockOcto = jest.fn();
 // @ts-ignore
@@ -23,23 +23,23 @@ describe('commently', () => {
 
     it('should fail without a pr number', () => {
       process.env.GH_TOKEN = 'yes';
-      expect(() => new Commently({ owner: 'foo', repo: 'bar' })).toThrow();
+      expect(() => new Github({ owner: 'foo', repo: 'bar' })).toThrow();
     });
 
     it('should fail without an owner', () => {
       process.env.GH_TOKEN = 'yes';
-      expect(() => new Commently({ pr: 1, repo: 'bar' })).toThrow();
+      expect(() => new Github({ pr: 1, repo: 'bar' })).toThrow();
     });
 
     it('should fail without a repo', () => {
       process.env.GH_TOKEN = 'yes';
-      expect(() => new Commently({ owner: 'foo', pr: 1 })).toThrow();
+      expect(() => new Github({ owner: 'foo', pr: 1 })).toThrow();
     });
 
     it('should auto authenticate when token present', () => {
       process.env.GH_TOKEN = 'yes';
       // eslint-disable-next-line no-new
-      new Commently({ owner: 'foo', repo: 'bar', pr: 1 });
+      new Github({ owner: 'foo', repo: 'bar', pr: 1 });
       expect(mockOcto).toHaveBeenCalledWith(
         expect.objectContaining({
           auth: 'token yes'
@@ -50,7 +50,7 @@ describe('commently', () => {
     it('should NOT auto authenticate when no token present', () => {
       process.env.GH_TOKEN = undefined;
       // eslint-disable-next-line no-new
-      new Commently({ owner: 'foo', repo: 'bar', pr: 1 });
+      new Github({ owner: 'foo', repo: 'bar', pr: 1 });
       expect(mockOcto).not.toHaveBeenCalledWith(
         expect.objectContaining({
           auth: 'token yes'
@@ -60,7 +60,7 @@ describe('commently', () => {
   });
 
   test('getKeyedComment', async () => {
-    const commently = new Commently({
+    const commently = new Github({
       owner: 'foo',
       repo: 'bar',
       pr: 99,
@@ -104,7 +104,7 @@ describe('commently', () => {
       issues: { updateComment }
     });
 
-    const commently = new Commently({
+    const commently = new Github({
       owner: 'foo',
       repo: 'bar',
       pr: 99,
