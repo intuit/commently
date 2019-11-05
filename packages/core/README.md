@@ -7,9 +7,9 @@ Commently Core is the underlying API package wrapped by the CLI
 To use, you can simply import it into your project like so. Remember that you will still need to provide a `GITHUB_TOKEN` or `GH_TOKEN`, as well as a `GITHUB_URL` (default to public github) in your environment to be able to comment.
 
 ```javascript
-import Commently from 'commently/core';
+import { Github } from 'commently/core';
 
-const commently = new Commently({
+const commently = new Github({
   pr: '1234',
   owner: 'GithubOrg',
   repo: 'RepoName',
@@ -31,7 +31,7 @@ commently
 
 ## Gitlab
 
-We also now export an API compliant gitlab module. It needs a `GITLAB_TOKEN` to exist in your environment. It also needs a commit sha to fine your Merge Request.
+We also now export an API compliant gitlab module. It needs a `GITLAB_TOKEN` to exist in your environment. It also needs a commit sha to fine your Merge Request. We also key off of `GITLAB_URL` for any hosted solution.
 
 ```javascript
 import { Gitlab } from 'commently/core';
