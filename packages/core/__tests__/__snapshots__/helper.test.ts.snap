@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buildKeyedComment creates a comment with history 1`] = `
+"bodydelimnew body
+delim<details><summary>History</summary><div>
+<!-- key-history -->
+<hr><p></p><!-- key-history -->
+</div></details>
+</br>"
+`;
+
+exports[`buildKeyedComment creates a comment without history 1`] = `
+"headerdelimnew body
+delimfooter"
+`;

@@ -13,3 +13,11 @@ When used in the CI it will detect the pr, owner and repo so you only have to pr
 ```sh
 GH_TOKEN=YOUR_TOKEN commently --message "Test this"
 ```
+
+## Gitlab
+
+For use against gitlab we need the commit sha and a `GITLAB_TOKEN`. Usage would look like this:
+
+```sh
+GITLAB_TOKEN=YOUR_TOKEN commently --message "Test this" --commit "commit-sha"
+```

@@ -18,6 +18,8 @@
     "lines-between-class-members": "off",
     "capitalized-comments": "off",
     "@typescript-eslint/explicit-member-accessibility": "off",
-    "@typescript-eslint/explicit-function-return-type": "off"
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "eol-last": 2,
+    "comma-dangle": 2
   }
 }
