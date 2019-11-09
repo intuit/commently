@@ -1,3 +1,15 @@
+# v5.48.0 (Sat Nov 09 2019)
+
+#### 🚀  Enhancement
+
+- chore(deps): update dependency prettier to v1.19.0 [#306](https://github.com/intuit/commently/pull/306) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.47.3 (Sat Nov 09 2019)
 
 #### 🐛  Bug Fix
