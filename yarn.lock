@@ -2,16 +2,16 @@
 # yarn lockfile v1
 
 
-"@auto-it/core@^7.16.2":
-  version "7.16.2"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-7.16.2.tgz#d2479457e77da6851be027eee032210340374f5b"
-  integrity sha512-BLEjgOjiDA9/0ytyzCEDjgnU1yYApnT457/C6NnbRDkAbXRWs1KATFI19VN+FVzx7CSShuRuKavlz5bmKtwa0A==
+"@auto-it/core@^7.16.3":
+  version "7.16.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-7.16.3.tgz#4e2926501793ee65166e2f735bc802210da43a43"
+  integrity sha512-D4T3PfFb/A8I0VoTAxzS3zmIv1IGH3g2sD3EZSC5Fw2QEnWBCflRnuQ7mgnVDN7qc8/ykt7qPrk7LiCmJnY8Lg==
   dependencies:
     "@octokit/graphql" "^4.0.0"
     "@octokit/plugin-enterprise-compatibility" "1.1.1"
     "@octokit/plugin-retry" "^2.2.0"
     "@octokit/plugin-throttling" "^2.6.0"
-    "@octokit/rest" "16.34.1"
+    "@octokit/rest" "16.35.0"
     await-to-js "^2.1.1"
     cosmiconfig "6.0.0"
     dedent "^0.7.0"
@@ -32,12 +32,12 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-it/npm@^7.16.2":
-  version "7.16.2"
-  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-7.16.2.tgz#2b1f0e28a0c8471ed7dbfde98fdf31d1d082ab71"
-  integrity sha512-Y5NC9cXIzcq21Z9L35H9ngh4wYKuVr11tQ0YeO/8hN8hua+r806m4BgsCG5aoBBMbQxViGuMt08Ofmkws+TKIw==
+"@auto-it/npm@^7.16.3":
+  version "7.16.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-7.16.3.tgz#313f18701150f84dc5b19b3bcbd0c413edcb0a87"
+  integrity sha512-fr3NL4rCH3XvwXiwXFbRPcf2auJXNS6uAjl9ALr1igC/cTCzuX4tZk7XIjQ3vdguJmD+F9+VfmHFOsUoPMB56A==
   dependencies:
-    "@auto-it/core" "^7.16.2"
+    "@auto-it/core" "^7.16.3"
     env-ci "^4.1.1"
     get-monorepo-packages "^1.1.0"
     parse-author "^2.0.0"
@@ -49,12 +49,12 @@
     url-join "^4.0.0"
     user-home "^2.0.0"
 
-"@auto-it/released@^7.16.2":
-  version "7.16.2"
-  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-7.16.2.tgz#a4d50f9ef197143a8f5f546838d7661d7256e8d6"
-  integrity sha512-J7N3JD81E8XeQb0tnorR4/orG5K4I5cxT1Aa6OEfZvM044+lLU86A9KfRmzXgheey02rZA0PuquNcIdypLP6ig==
+"@auto-it/released@^7.16.3":
+  version "7.16.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-7.16.3.tgz#35acef5d78dad875c6e0eac9cc94cabff6511aa2"
+  integrity sha512-yDdaCYaTGvvnAM7yfHd6LR/vm9Iad2IxIGceNBP7wohDBjmwXqIbHeZASr8lSVpjoo1r3gUOZgUJfynItgS+dg==
   dependencies:
-    "@auto-it/core" "^7.16.2"
+    "@auto-it/core" "^7.16.3"
     deepmerge "^4.0.0"
     tslib "1.10.0"
 
@@ -1232,10 +1232,10 @@
     once "^1.4.0"
     universal-user-agent "^4.0.0"
 
-"@octokit/rest@16.34.1":
-  version "16.34.1"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.34.1.tgz#e28b5a573ca2f15bb002f90bc010020845ed9c01"
-  integrity sha512-JUoS12cdktf1fv86rgrjC/RvYLuL+o7p57W7zX1x7ANFJ7OvdV8emvUNkFlcidEaOkYrxK3SoWgQFt3FhNmabA==
+"@octokit/rest@16.35.0":
+  version "16.35.0"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.35.0.tgz#7ccc1f802f407d5b8eb21768c6deca44e7b4c0d8"
+  integrity sha512-9ShFqYWo0CLoGYhA1FdtdykJuMzS/9H6vSbbQWDX4pWr4p9v+15MsH/wpd/3fIU+tSxylaNO48+PIHqOkBRx3w==
   dependencies:
     "@octokit/request" "^5.2.0"
     "@octokit/request-error" "^1.0.2"
@@ -1785,14 +1785,14 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@7.16.2:
-  version "7.16.2"
-  resolved "https://registry.yarnpkg.com/auto/-/auto-7.16.2.tgz#b49d7e30997af8bdb2e3e958080adca2e716890a"
-  integrity sha512-V1tX5TvDiJ65U8Jev240827gHUYxYMbOTipydbyLX8vE8qabYr2cxH8sp6MldqjP16SShTiU1atyadIW2Na+vQ==
+auto@7.16.3:
+  version "7.16.3"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-7.16.3.tgz#440b51612bc4b657518b7dce2e398b3f91a040a3"
+  integrity sha512-654GEfLyGVMVMvS/A13fPAsIvFi1dFiT/s2rDbZGJnzxzHhuEk+ZFURR/GD+ARzSlbPIWB4bd25zg/pzpRLg6g==
   dependencies:
-    "@auto-it/core" "^7.16.2"
-    "@auto-it/npm" "^7.16.2"
-    "@auto-it/released" "^7.16.2"
+    "@auto-it/core" "^7.16.3"
+    "@auto-it/npm" "^7.16.3"
+    "@auto-it/released" "^7.16.3"
     chalk "^3.0.0"
     command-line-application "^0.9.3"
     dedent "^0.7.0"
