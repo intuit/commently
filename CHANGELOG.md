@@ -1,3 +1,20 @@
+# v5.56.0 (Mon Nov 25 2019)
+
+#### 🚀  Enhancement
+
+- chore(deps): update dependency eslint to v6.7.0 [#325](https://github.com/intuit/commently/pull/325) ([@renovate-bot](https://github.com/renovate-bot))
+- chore(deps): update dependency ts-jest to v24.2.0 [#324](https://github.com/intuit/commently/pull/324) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency eslint to v6.7.1 [#326](https://github.com/intuit/commently/pull/326) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.55.0 (Wed Nov 20 2019)
 
 #### 🚀  Enhancement
