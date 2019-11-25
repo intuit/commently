@@ -12,7 +12,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "arg": "4.1.1",
+    "arg": "4.1.2",
     "commently": "^5.56.0",
     "log-symbols": "3.0.0"
   },
