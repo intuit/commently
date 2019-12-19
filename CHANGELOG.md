@@ -1,3 +1,16 @@
+# v5.58.8 (Thu Dec 19 2019)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency eslint-plugin-jest to v23 [#288](https://github.com/intuit/commently/pull/288) ([@renovate-bot](https://github.com/renovate-bot))
+- chore(deps): update node.js to v8.17.0 [#341](https://github.com/intuit/commently/pull/341) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.58.7 (Wed Dec 18 2019)
 
 #### 🐛  Bug Fix
