@@ -1,3 +1,15 @@
+# v5.65.0 (Tue Jan 07 2020)
+
+#### 🚀  Enhancement
+
+- chore(deps): update dependency ts-jest to v24.3.0 [#356](https://github.com/intuit/commently/pull/356) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.64.0 (Sat Jan 04 2020)
 
 #### 🚀  Enhancement
