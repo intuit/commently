@@ -1,3 +1,15 @@
+# v5.68.2 (Tue Jan 14 2020)
+
+#### ⚠️  Pushed to master
+
+- chore: added SVG to README  (3680126+Aghassi@users.noreply.github.com)
+
+#### Authors: 1
+
+- David (3680126+Aghassi@users.noreply.github.com)
+
+---
+
 # v5.68.1 (Tue Jan 14 2020)
 
 #### ⚠️  Pushed to master
