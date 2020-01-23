@@ -1,3 +1,15 @@
+# v5.69.2 (Thu Jan 23 2020)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency @types/jest to v24.9.1 [#366](https://github.com/intuit/commently/pull/366) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.69.1 (Thu Jan 16 2020)
 
 #### 🐛  Bug Fix
