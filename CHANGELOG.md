@@ -1,3 +1,16 @@
+# v5.70.2 (Sun Feb 02 2020)
+
+#### 🐛  Bug Fix
+
+- `commently-cli`
+  - fix(deps): update dependency arg to v4.1.3 [#371](https://github.com/intuit/commently/pull/371) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.70.1 (Tue Jan 28 2020)
 
 #### 🐛  Bug Fix
