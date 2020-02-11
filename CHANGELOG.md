@@ -1,3 +1,16 @@
+# v5.71.1 (Tue Feb 11 2020)
+
+#### 🐛  Bug Fix
+
+- `commently-cli`, `commently`
+  - chore(deps): update dependency @types/node to v10.17.15 [#374](https://github.com/intuit/commently/pull/374) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.71.0 (Fri Feb 07 2020)
 
 #### 🚀  Enhancement
