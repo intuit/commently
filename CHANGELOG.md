@@ -1,3 +1,15 @@
+# v5.80.3 (Tue May 19 2020)
+
+#### 🐛  Bug Fix
+
+- chore(deps): lock file maintenance [#403](https://github.com/intuit/commently/pull/403) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.80.2 (Tue May 19 2020)
 
 #### 🐛  Bug Fix
