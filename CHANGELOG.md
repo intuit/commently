@@ -1,3 +1,15 @@
+# v5.81.4 (Tue Jun 09 2020)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency lerna to v3.22.1 [#418](https://github.com/intuit/commently/pull/418) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.81.3 (Mon Jun 08 2020)
 
 #### 🐛  Bug Fix
