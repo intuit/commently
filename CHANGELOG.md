@@ -1,3 +1,15 @@
+# v5.83.0 (Sun Jun 21 2020)
+
+#### 🚀  Enhancement
+
+- chore(deps): update dependency eslint-plugin-jest to v23.16.0 [#424](https://github.com/intuit/commently/pull/424) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.82.0 (Sun Jun 21 2020)
 
 #### 🚀  Enhancement
