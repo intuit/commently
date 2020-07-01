@@ -1,3 +1,15 @@
+# v5.84.2 (Wed Jul 01 2020)
+
+#### 🐛  Bug Fix
+
+- chore(deps): update dependency typescript to v3.9.6 [#427](https://github.com/intuit/commently/pull/427) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.84.1 (Tue Jun 23 2020)
 
 #### 🐛  Bug Fix
