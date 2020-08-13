@@ -1,3 +1,15 @@
+# v6.0.0 (Thu Aug 13 2020)
+
+#### 💥 Breaking Change
+
+- update octokit and auto + drop support for node 8.x [#441](https://github.com/intuit/commently/pull/441) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v5.87.0 (Thu Jul 30 2020)
 
 #### 🚀  Enhancement
