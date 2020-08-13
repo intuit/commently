@@ -1,3 +1,16 @@
+# v6.0.1 (Thu Aug 13 2020)
+
+#### 🐛 Bug Fix
+
+- chore(deps): pin dependencies [#443](https://github.com/intuit/commently/pull/443) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.0.0 (Thu Aug 13 2020)
 
 #### 💥 Breaking Change
