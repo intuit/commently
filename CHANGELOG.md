@@ -1,3 +1,16 @@
+# v6.2.5 (Mon Sep 07 2020)
+
+#### 🐛 Bug Fix
+
+- chore(deps): lock file maintenance [#460](https://github.com/intuit/commently/pull/460) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.2.4 (Fri Sep 04 2020)
 
 #### 🐛 Bug Fix
