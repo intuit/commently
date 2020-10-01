@@ -235,7 +235,7 @@
 
 "@babel/runtime@^7.11.2":
   version "7.11.2"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha1-9UnBPHVMxAuHZEufqfCaapX+BzY=
   dependencies:
     regenerator-runtime "^0.13.4"
@@ -283,7 +283,7 @@
 
 "@commitlint/cli@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/cli/-/cli-11.0.0.tgz#698199bc52afed50aa28169237758fa14a67b5d3"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-11.0.0.tgz#698199bc52afed50aa28169237758fa14a67b5d3"
   integrity sha1-aYGZvFKv7VCqKBaSN3WPoUpntdM=
   dependencies:
     "@babel/runtime" "^7.11.2"
@@ -301,14 +301,14 @@
 
 "@commitlint/config-conventional@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/config-conventional/-/config-conventional-11.0.0.tgz#3fa300a1b639273946de3c3f15e1cda518333422"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-11.0.0.tgz#3fa300a1b639273946de3c3f15e1cda518333422"
   integrity sha1-P6MAobY5JzlG3jw/FeHNpRgzNCI=
   dependencies:
     conventional-changelog-conventionalcommits "^4.3.1"
 
 "@commitlint/ensure@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/ensure/-/ensure-11.0.0.tgz#3e796b968ab5b72bc6f8a6040076406306c987fb"
+  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-11.0.0.tgz#3e796b968ab5b72bc6f8a6040076406306c987fb"
   integrity sha1-Pnlrloq1tyvG+KYEAHZAYwbJh/s=
   dependencies:
     "@commitlint/types" "^11.0.0"
@@ -316,12 +316,12 @@
 
 "@commitlint/execute-rule@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/execute-rule/-/execute-rule-11.0.0.tgz#3ed60ab7a33019e58d90e2d891b75d7df77b4b4d"
+  resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-11.0.0.tgz#3ed60ab7a33019e58d90e2d891b75d7df77b4b4d"
   integrity sha1-PtYKt6MwGeWNkOLYkbddffd7S00=
 
 "@commitlint/format@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/format/-/format-11.0.0.tgz#ac47b0b9ca46540c0082c721b290794e67bdc51b"
+  resolved "https://registry.yarnpkg.com/@commitlint/format/-/format-11.0.0.tgz#ac47b0b9ca46540c0082c721b290794e67bdc51b"
   integrity sha1-rEewucpGVAwAgschspB5Tme9xRs=
   dependencies:
     "@commitlint/types" "^11.0.0"
@@ -329,7 +329,7 @@
 
 "@commitlint/is-ignored@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/is-ignored/-/is-ignored-11.0.0.tgz#7b803eda56276dbe7fec51eb1510676198468f39"
+  resolved "https://registry.yarnpkg.com/@commitlint/is-ignored/-/is-ignored-11.0.0.tgz#7b803eda56276dbe7fec51eb1510676198468f39"
   integrity sha1-e4A+2lYnbb5/7FHrFRBnYZhGjzk=
   dependencies:
     "@commitlint/types" "^11.0.0"
@@ -337,7 +337,7 @@
 
 "@commitlint/lint@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/lint/-/lint-11.0.0.tgz#01e062cd1b0e7c3d756aa2c246462e0b6a3348a4"
+  resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-11.0.0.tgz#01e062cd1b0e7c3d756aa2c246462e0b6a3348a4"
   integrity sha1-AeBizRsOfD11aqLCRkYuC2ozSKQ=
   dependencies:
     "@commitlint/is-ignored" "^11.0.0"
@@ -347,7 +347,7 @@
 
 "@commitlint/load@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/load/-/load-11.0.0.tgz#f736562f0ffa7e773f8808fea93319042ee18211"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-11.0.0.tgz#f736562f0ffa7e773f8808fea93319042ee18211"
   integrity sha1-9zZWLw/6fnc/iAj+qTMZBC7hghE=
   dependencies:
     "@commitlint/execute-rule" "^11.0.0"
@@ -360,12 +360,12 @@
 
 "@commitlint/message@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/message/-/message-11.0.0.tgz#83554c3cbbc884fd07b473593bc3e94bcaa3ee05"
+  resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-11.0.0.tgz#83554c3cbbc884fd07b473593bc3e94bcaa3ee05"
   integrity sha1-g1VMPLvIhP0HtHNZO8PpS8qj7gU=
 
 "@commitlint/parse@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/parse/-/parse-11.0.0.tgz#d18b08cf67c35d02115207d7009306a2e8e7c901"
+  resolved "https://registry.yarnpkg.com/@commitlint/parse/-/parse-11.0.0.tgz#d18b08cf67c35d02115207d7009306a2e8e7c901"
   integrity sha1-0YsIz2fDXQIRUgfXAJMGoujnyQE=
   dependencies:
     conventional-changelog-angular "^5.0.0"
@@ -373,7 +373,7 @@
 
 "@commitlint/read@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/read/-/read-11.0.0.tgz#f24240548c63587bba139fa5a364cab926077016"
+  resolved "https://registry.yarnpkg.com/@commitlint/read/-/read-11.0.0.tgz#f24240548c63587bba139fa5a364cab926077016"
   integrity sha1-8kJAVIxjWHu6E5+lo2TKuSYHcBY=
   dependencies:
     "@commitlint/top-level" "^11.0.0"
@@ -382,7 +382,7 @@
 
 "@commitlint/resolve-extends@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/resolve-extends/-/resolve-extends-11.0.0.tgz#158ecbe27d4a2a51d426111a01478e216fbb1036"
+  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-11.0.0.tgz#158ecbe27d4a2a51d426111a01478e216fbb1036"
   integrity sha1-FY7L4n1KKlHUJhEaAUeOIW+7EDY=
   dependencies:
     import-fresh "^3.0.0"
@@ -392,7 +392,7 @@
 
 "@commitlint/rules@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/rules/-/rules-11.0.0.tgz#bdb310cc6fc55c9f8d7d917a22b69055c535c375"
+  resolved "https://registry.yarnpkg.com/@commitlint/rules/-/rules-11.0.0.tgz#bdb310cc6fc55c9f8d7d917a22b69055c535c375"
   integrity sha1-vbMQzG/FXJ+NfZF6IraQVcU1w3U=
   dependencies:
     "@commitlint/ensure" "^11.0.0"
@@ -402,19 +402,19 @@
 
 "@commitlint/to-lines@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/to-lines/-/to-lines-11.0.0.tgz#86dea151c10eea41e39ea96fa4de07839258a7fe"
+  resolved "https://registry.yarnpkg.com/@commitlint/to-lines/-/to-lines-11.0.0.tgz#86dea151c10eea41e39ea96fa4de07839258a7fe"
   integrity sha1-ht6hUcEO6kHjnqlvpN4Hg5JYp/4=
 
 "@commitlint/top-level@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/top-level/-/top-level-11.0.0.tgz#bb2d1b6e5ed3be56874633b59e1f7de118c32783"
+  resolved "https://registry.yarnpkg.com/@commitlint/top-level/-/top-level-11.0.0.tgz#bb2d1b6e5ed3be56874633b59e1f7de118c32783"
   integrity sha1-uy0bbl7TvlaHRjO1nh994RjDJ4M=
   dependencies:
     find-up "^5.0.0"
 
 "@commitlint/types@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@commitlint/types/-/types-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
+  resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
   integrity sha1-cZzwX8wau2UzYQouD13R5h6sFP4=
 
 "@evocateur/libnpmaccess@^3.1.2":
@@ -2130,7 +2130,7 @@ asynckit@^0.4.0:
 
 at-least-node@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
+  resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha1-YCzUtG6EStTv/JKoARo8RuAjjcI=
 
 atob-lite@^2.0.0:
@@ -2566,7 +2566,7 @@ cliui@^5.0.0:
 
 cliui@^6.0.0:
   version "6.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/cliui/-/cliui-6.0.0.tgz#511d702c0c4e41ca156d7d0e96021f23e13225b1"
+  resolved "https://registry.yarnpkg.com/cliui/-/cliui-6.0.0.tgz#511d702c0c4e41ca156d7d0e96021f23e13225b1"
   integrity sha1-UR1wLAxOQcoVbX0OlgIfI+EyJbE=
   dependencies:
     string-width "^4.2.0"
@@ -2744,7 +2744,7 @@ conventional-changelog-angular@^5.0.0, conventional-changelog-angular@^5.0.3:
 
 conventional-changelog-conventionalcommits@^4.3.1:
   version "4.4.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.4.0.tgz#8d96687141c9bbd725a89b95c04966d364194cd4"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.4.0.tgz#8d96687141c9bbd725a89b95c04966d364194cd4"
   integrity sha1-jZZocUHJu9clqJuVwElm02QZTNQ=
   dependencies:
     compare-func "^2.0.0"
@@ -2857,7 +2857,7 @@ core-js@2.4.1:
 
 core-js@^3.6.1:
   version "3.6.5"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
   integrity sha1-c5XcJzrzf7LlDpvT2f6EEoUjHRo=
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
@@ -2939,7 +2939,7 @@ dargs@^4.0.1:
 
 dargs@^7.0.0:
   version "7.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/dargs/-/dargs-7.0.0.tgz#04015c41de0bcb69ec84050f3d9be0caf8d6d5cc"
+  resolved "https://registry.yarnpkg.com/dargs/-/dargs-7.0.0.tgz#04015c41de0bcb69ec84050f3d9be0caf8d6d5cc"
   integrity sha1-BAFcQd4Ly2nshAUPPZvgyvjW1cw=
 
 dashdash@^1.12.0:
@@ -3780,7 +3780,7 @@ find-up@^4.0.0, find-up@^4.1.0:
 
 find-up@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/find-up/-/find-up-5.0.0.tgz#4c92819ecb7083561e4f4a240a86be5198f536fc"
+  resolved "https://registry.yarnpkg.com/find-up/-/find-up-5.0.0.tgz#4c92819ecb7083561e4f4a240a86be5198f536fc"
   integrity sha1-TJKBnstwg1YeT0okCoa+UZj1Nvw=
   dependencies:
     locate-path "^6.0.0"
@@ -3863,7 +3863,7 @@ fs-extra@^8.1.0:
 
 fs-extra@^9.0.0:
   version "9.0.1"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/fs-extra/-/fs-extra-9.0.1.tgz#910da0062437ba4c39fedd863f1675ccfefcb9fc"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.0.1.tgz#910da0062437ba4c39fedd863f1675ccfefcb9fc"
   integrity sha1-kQ2gBiQ3ukw5/t2GPxZ1zP78ufw=
   dependencies:
     at-least-node "^1.0.0"
@@ -3971,7 +3971,7 @@ get-port@^4.2.0:
 
 get-stdin@8.0.0:
   version "8.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/get-stdin/-/get-stdin-8.0.0.tgz#cbad6a73feb75f6eeb22ba9e01f89aa28aa97a53"
+  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-8.0.0.tgz#cbad6a73feb75f6eeb22ba9e01f89aa28aa97a53"
   integrity sha1-y61qc/63X27rIrqeAfiaooqpelM=
 
 get-stdin@^4.0.1:
@@ -4028,7 +4028,7 @@ git-raw-commits@2.0.0:
 
 git-raw-commits@^2.0.0:
   version "2.0.7"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/git-raw-commits/-/git-raw-commits-2.0.7.tgz#02e9357727a9755efa8e14dd5e59b381c29068fb"
+  resolved "https://registry.yarnpkg.com/git-raw-commits/-/git-raw-commits-2.0.7.tgz#02e9357727a9755efa8e14dd5e59b381c29068fb"
   integrity sha1-Auk1dyepdV76jhTdXlmzgcKQaPs=
   dependencies:
     dargs "^7.0.0"
@@ -4117,7 +4117,7 @@ glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
 
 global-dirs@^0.1.1:
   version "0.1.1"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/global-dirs/-/global-dirs-0.1.1.tgz#b319c0dd4607f353f3be9cca4c72fc148c49f445"
+  resolved "https://registry.yarnpkg.com/global-dirs/-/global-dirs-0.1.1.tgz#b319c0dd4607f353f3be9cca4c72fc148c49f445"
   integrity sha1-sxnA3UYH81PzvpzKTHL8FIxJ9EU=
   dependencies:
     ini "^1.3.4"
@@ -5348,7 +5348,7 @@ jsonfile@^4.0.0:
 
 jsonfile@^6.0.1:
   version "6.0.1"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/jsonfile/-/jsonfile-6.0.1.tgz#98966cba214378c8c84b82e085907b40bf614179"
+  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-6.0.1.tgz#98966cba214378c8c84b82e085907b40bf614179"
   integrity sha1-mJZsuiFDeMjIS4LghZB7QL9hQXk=
   dependencies:
     universalify "^1.0.0"
@@ -5567,7 +5567,7 @@ locate-path@^5.0.0:
 
 locate-path@^6.0.0:
   version "6.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/locate-path/-/locate-path-6.0.0.tgz#55321eb309febbc59c4801d931a72452a681d286"
+  resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-6.0.0.tgz#55321eb309febbc59c4801d931a72452a681d286"
   integrity sha1-VTIeswn+u8WcSAHZMackUqaB0oY=
   dependencies:
     p-locate "^5.0.0"
@@ -6432,7 +6432,7 @@ p-limit@^2.0.0, p-limit@^2.2.0:
 
 p-limit@^3.0.2:
   version "3.0.2"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/p-limit/-/p-limit-3.0.2.tgz#1664e010af3cadc681baafd3e2a437be7b0fb5fe"
+  resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-3.0.2.tgz#1664e010af3cadc681baafd3e2a437be7b0fb5fe"
   integrity sha1-FmTgEK88rcaBuq/T4qQ3vnsPtf4=
   dependencies:
     p-try "^2.0.0"
@@ -6460,7 +6460,7 @@ p-locate@^4.1.0:
 
 p-locate@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/p-locate/-/p-locate-5.0.0.tgz#83c8315c6785005e3bd021839411c9e110e6d834"
+  resolved "https://registry.yarnpkg.com/p-locate/-/p-locate-5.0.0.tgz#83c8315c6785005e3bd021839411c9e110e6d834"
   integrity sha1-g8gxXGeFAF470CGDlBHJ4RDm2DQ=
   dependencies:
     p-limit "^3.0.2"
@@ -7071,7 +7071,7 @@ reduce-flatten@^2.0.0:
 
 regenerator-runtime@^0.13.4:
   version "0.13.7"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
   integrity sha1-ysLazIoepnX+qrrriugziYrkb1U=
 
 regex-not@^1.0.0, regex-not@^1.0.2:
@@ -7197,7 +7197,7 @@ resolve-from@^4.0.0:
 
 resolve-global@1.0.0, resolve-global@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/resolve-global/-/resolve-global-1.0.0.tgz#a2a79df4af2ca3f49bf77ef9ddacd322dad19255"
+  resolved "https://registry.yarnpkg.com/resolve-global/-/resolve-global-1.0.0.tgz#a2a79df4af2ca3f49bf77ef9ddacd322dad19255"
   integrity sha1-oqed9K8so/Sb93753azTItrRklU=
   dependencies:
     global-dirs "^0.1.1"
@@ -8276,7 +8276,7 @@ universalify@^0.1.0:
 
 universalify@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/universalify/-/universalify-1.0.0.tgz#b61a1da173e8435b2fe3c67d29b9adf8594bd16d"
+  resolved "https://registry.yarnpkg.com/universalify/-/universalify-1.0.0.tgz#b61a1da173e8435b2fe3c67d29b9adf8594bd16d"
   integrity sha1-thodoXPoQ1sv48Z9Kbmt+FlL0W0=
 
 unset-value@^1.0.0:
@@ -8503,7 +8503,7 @@ wrap-ansi@^5.1.0:
 
 wrap-ansi@^6.2.0:
   version "6.2.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
   integrity sha1-6Tk7oHEC5skaOyIUePAlfNKFblM=
   dependencies:
     ansi-styles "^4.0.0"
@@ -8670,7 +8670,7 @@ yargs@^14.2.2:
 
 yargs@^15.1.0:
   version "15.4.1"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/yargs/-/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
   integrity sha1-DYehbeAa7p2L7Cv7909nhRcw9Pg=
   dependencies:
     cliui "^6.0.0"
