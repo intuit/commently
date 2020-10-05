@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@auto-it/bot-list@9.54.0":
-  version "9.54.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-9.54.0.tgz#4e32499955b5c3e3d6de4d34f92ed108101ed8d3"
-  integrity sha512-3iBgLtvWNffXAYetcq1euyjsVxa9OfGGJqxRC6yKlvKOXDWpIigYBj833ompQbsd1IvTXzEiY6lQRcWVS7eAJA==
+"@auto-it/bot-list@9.54.1":
+  version "9.54.1"
+  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-9.54.1.tgz#885330d1b7bcfda79525a6d5e3bb71792f9ebd44"
+  integrity sha512-F8JSddLBq4UUw+OEcODzYCLJ9SqhcGNPax5tArWv+shICtbNCJnIrQ5ptJK4Dla9D1h3uAWoVLCnxYphzGCGOg==
 
-"@auto-it/core@9.54.0":
-  version "9.54.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-9.54.0.tgz#e62f5ba91b792dd2494f17f4aacf41ea790ac191"
-  integrity sha512-+V0pWuSQIZludKSd403SF8CjrPk5Ex2rMU8unVa0euTmXujGsUG0+uVjUfm3lq3Af/DkEVuJoNktZmhFHYbNsg==
+"@auto-it/core@9.54.1":
+  version "9.54.1"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-9.54.1.tgz#636ed28e56f9e821d1817457402606b86c6c5e2a"
+  integrity sha512-Lgt0jr38Oop7QxbuR2phWYfvScnadqNdriDMdZDQ1Fw3oyKVf3YhouorRUORnHW2fPbicP8xYfmCug/BgSkXcg==
   dependencies:
-    "@auto-it/bot-list" "9.54.0"
+    "@auto-it/bot-list" "9.54.1"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
     "@octokit/plugin-retry" "^3.0.1"
     "@octokit/plugin-throttling" "^3.2.0"
@@ -28,7 +28,7 @@
     fast-glob "^3.1.1"
     fp-ts "^2.5.3"
     fromentries "^1.2.0"
-    gitlog "^4.0.0"
+    gitlog "^4.0.3"
     https-proxy-agent "^5.0.0"
     import-cwd "^3.0.0"
     import-from "^3.0.0"
@@ -49,12 +49,12 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-it/npm@9.54.0":
-  version "9.54.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-9.54.0.tgz#34a995cc19eda59c0c27a03cd11ae26169a27dd6"
-  integrity sha512-Bs1JNmtpzi2Ojtc3fpJiuT9WHES11VoJXmHILEW5bcDJB1FPlA5wp+fO9N+d+YLJBFES3+KTNqS0e0ZSZpAe4Q==
+"@auto-it/npm@9.54.1":
+  version "9.54.1"
+  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-9.54.1.tgz#0d3d6207418875fd18bb9836e6e7d36adad53c69"
+  integrity sha512-ZHrRw6pTSZU6f+q7PRAJcsp/DvG6fQYTUzX03vPpi/grc5rVR1inheSBXSH8vTs3+HEVRT2Bx/cQmEq/KFOPXg==
   dependencies:
-    "@auto-it/core" "9.54.0"
+    "@auto-it/core" "9.54.1"
     await-to-js "^2.1.1"
     env-ci "^5.0.1"
     fp-ts "^2.5.3"
@@ -69,12 +69,12 @@
     url-join "^4.0.0"
     user-home "^2.0.0"
 
-"@auto-it/released@9.54.0":
-  version "9.54.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-9.54.0.tgz#39c089ac75444395b01368c758f13780d8f70d0c"
-  integrity sha512-A9R9zbY5etwW/AVQV5eo3TMUC28ujFdRwav6DJy1b6ZtasyKTY1qAoEO3Ac5UMxRmZSqDNGOKIw9VlQGV9OTkQ==
+"@auto-it/released@9.54.1":
+  version "9.54.1"
+  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-9.54.1.tgz#52ca6633acf9c926e95cf5a8d27cfb4efd6b9ece"
+  integrity sha512-rFoInPAramahaFCU7mjvAaNeJsHooCGwcRMxoTUAK8W0+L8Q1tlmv3EqbfVLStew9CEtNuINGO+bqomZ0aZIRA==
   dependencies:
-    "@auto-it/core" "9.54.0"
+    "@auto-it/core" "9.54.1"
     deepmerge "^4.0.0"
     fp-ts "^2.5.3"
     io-ts "^2.1.2"
@@ -2000,14 +2000,14 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@9.54.0:
-  version "9.54.0"
-  resolved "https://registry.yarnpkg.com/auto/-/auto-9.54.0.tgz#1ef356c4bf8f795e1ba160af82cf621af08261e0"
-  integrity sha512-Q/9fY6PZ2X8nQz3zVL0q2V5AScZNiqXRI0wQt1plONvcM5RC90GLDNlU1Wmf4888IQEO2NKnUCX9iWmEKUTXbQ==
+auto@9.54.1:
+  version "9.54.1"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-9.54.1.tgz#68eb55e232246a1c8bcab1feab69d9c7f6e16622"
+  integrity sha512-dbi+a9ITFAJTfyPBFhZ+3PmuHm8bNl00sWylxhV5uBf/GtvSkYht30vyk3hbFMaVmrighlniBL+MptgDYo2lOA==
   dependencies:
-    "@auto-it/core" "9.54.0"
-    "@auto-it/npm" "9.54.0"
-    "@auto-it/released" "9.54.0"
+    "@auto-it/core" "9.54.1"
+    "@auto-it/npm" "9.54.1"
+    "@auto-it/released" "9.54.1"
     await-to-js "^2.1.1"
     chalk "^4.0.0"
     command-line-application "^0.10.1"
@@ -3865,10 +3865,10 @@ gitconfiglocal@^1.0.0:
   dependencies:
     ini "^1.3.2"
 
-gitlog@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/gitlog/-/gitlog-4.0.0.tgz#c4f440c822cc3fe1b32366d0662918871d3c7249"
-  integrity sha512-N6ZcvvbHsqhmM09wtzbL8v3FPwBK3EQ1xnv/2nj9JGH/YsYVn+ZkmMCxzkEjHnSFcpUk2HN2LBp76PGj3TkPag==
+gitlog@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/gitlog/-/gitlog-4.0.3.tgz#36422e6910fccaa1e5d8413f62245797161743cc"
+  integrity sha512-rWejI3r/UXo2egYMJRwI3w/lTVNjP8yT9oz29hkv69qlatKj3Y0PmUYU1x+3fILx+qJJBKjEEHgYTFygOV3a+Q==
   dependencies:
     debug "^4.1.1"
     tslib "^1.11.1"
