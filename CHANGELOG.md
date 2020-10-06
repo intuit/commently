@@ -1,3 +1,15 @@
+# v6.5.4 (Tue Oct 06 2020)
+
+#### 🐛 Bug Fix
+
+- chore: added commitlint support [#475](https://github.com/intuit/commently/pull/475) ([@christyjacob4](https://github.com/christyjacob4))
+
+#### Authors: 1
+
+- Christy Jacob ([@christyjacob4](https://github.com/christyjacob4))
+
+---
+
 # v6.5.3 (Tue Oct 06 2020)
 
 #### 🐛 Bug Fix
