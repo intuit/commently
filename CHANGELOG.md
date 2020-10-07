@@ -1,3 +1,16 @@
+# v6.5.10 (Wed Oct 07 2020)
+
+#### 🐛 Bug Fix
+
+- chore(deps): update dependency auto to v9.54.6 [#485](https://github.com/intuit/commently/pull/485) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.5.9 (Tue Oct 06 2020)
 
 #### 🐛 Bug Fix
