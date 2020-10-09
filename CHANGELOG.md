@@ -1,3 +1,17 @@
+# v6.8.1 (Fri Oct 09 2020)
+
+#### 🐛 Bug Fix
+
+- `commently-cli`, `commently`
+  - chore(deps): update dependency @types/node to v10.17.39 [#490](https://github.com/intuit/commently/pull/490) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.8.0 (Thu Oct 08 2020)
 
 #### 🚀 Enhancement
