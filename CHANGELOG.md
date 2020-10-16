@@ -1,3 +1,16 @@
+# v6.11.0 (Fri Oct 16 2020)
+
+#### 🚀 Enhancement
+
+- chore(deps): update dependency eslint-config-prettier to v6.13.0 [#494](https://github.com/intuit/commently/pull/494) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.10.1 (Thu Oct 15 2020)
 
 #### 🐛 Bug Fix
