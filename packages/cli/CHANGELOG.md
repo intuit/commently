@@ -1,3 +1,16 @@
+# v6.15.12 (Sat Dec 12 2020)
+
+#### 🐛 Bug Fix
+
+- chore(deps): update dependency @types/node to v10.17.49 [#520](https://github.com/intuit/commently/pull/520) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.15.8 (Mon Nov 30 2020)
 
 #### 🐛 Bug Fix
