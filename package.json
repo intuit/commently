@@ -36,7 +36,7 @@
     "lint-staged": "9.5.0",
     "prettier": "1.19.1",
     "ts-jest": "24.3.0",
-    "typescript": "3.9.8"
+    "typescript": "3.9.9"
   },
   "prettier": {
     "singleQuote": true
