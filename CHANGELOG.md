@@ -1,3 +1,17 @@
+# v6.17.8 (Tue Feb 23 2021)
+
+#### 🐛 Bug Fix
+
+- `commently-cli`
+  - fix(deps): pin dependency commently to 6.17.7 [#548](https://github.com/intuit/commently/pull/548) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.17.7 (Tue Feb 23 2021)
 
 #### 🐛 Bug Fix
