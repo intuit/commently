@@ -1,3 +1,16 @@
+# v6.17.18 (Thu Feb 25 2021)
+
+#### 🐛 Bug Fix
+
+- fix(deps): pin dependency commently to 6.17.17 [#569](https://github.com/intuit/commently/pull/569) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.17.17 (Thu Feb 25 2021)
 
 #### 🐛 Bug Fix
