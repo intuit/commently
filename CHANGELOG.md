@@ -1,3 +1,16 @@
+# v6.21.1 (Thu Jun 17 2021)
+
+#### 🐛 Bug Fix
+
+- chore(deps): update dependency typescript to v3.9.10 [#618](https://github.com/intuit/commently/pull/618) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.21.0 (Sat Jun 12 2021)
 
 #### 🚀 Enhancement
