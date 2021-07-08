@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/debug": "4.1.6",
-    "@types/env-ci": "3.1.0",
+    "@types/env-ci": "3.1.1",
     "@types/node": "10.17.60"
   }
 }
