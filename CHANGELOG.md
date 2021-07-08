@@ -1,3 +1,17 @@
+# v6.21.10 (Thu Jul 08 2021)
+
+#### 🐛 Bug Fix
+
+- `commently`
+  - chore(deps): update dependency @types/env-ci to v3.1.1 [#628](https://github.com/intuit/commently/pull/628) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.21.9 (Sun Jul 04 2021)
 
 #### 🐛 Bug Fix
