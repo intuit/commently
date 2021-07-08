@@ -1740,10 +1740,10 @@
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.6.tgz#0b7018723084918a865eff99249c490505df2163"
   integrity sha512-7fDOJFA/x8B+sO1901BmHlf5dE1cxBU8mRXj8QOEDnn16hhGJv/IHxJtZhvsabZsIMn0eLIyeOKAeqSNJJYTpA==
 
-"@types/env-ci@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@types/env-ci/-/env-ci-3.1.0.tgz#8b8b388641c641fa4eb51862cbb018db013aeb68"
-  integrity sha512-oJTxA/GmZavFFr6wtuFcmOUH4Lfj0RU9icnYBzp8gXDj7p8rCr5XRR2W6VzYOoCuEJusQsRUjSMr+3xOJ1S6yw==
+"@types/env-ci@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@types/env-ci/-/env-ci-3.1.1.tgz#e1ff1b648c01b0f5202de5633c00f711f0f3ac03"
+  integrity sha512-JuX+LHsvhktApmZxmBrG458kfSvPAvs2Kqhyrow3IKtDsbcRco7NFgpsNthjp8EQxKA6PMw3DrY/IH8ZAuTYlQ==
 
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
@@ -2834,6 +2834,11 @@ config-chain@^1.1.11:
     ini "^1.3.4"
     proto-list "~1.2.1"
 
+confusing-browser-globals@1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.10.tgz#30d1e7f3d1b882b25ec4933d1d1adac353d20a59"
+  integrity sha512-gNld/3lySHwuhaVluJUKLePYirM3QNCKzVxqAdhJII9/WXKVX5PURzMVJspS1jTslSqjeuG4KMVTSouit5YPHA==
+
 console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
@@ -3447,10 +3452,12 @@ eslint-config-prettier@6.15.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-xo@0.27.2:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.27.2.tgz#71aff3d5b5554e9e5b5e1853e21da7799bb53f1f"
-  integrity sha512-qEuZP0zNQkWpOdNZvWnfY2GNp1AZ33uXgeOXl4DN5YVLHFvekHbeSM2FFZ8A489fp1rCCColVRlJsYMf28o4DA==
+eslint-config-xo@0.37.0:
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.37.0.tgz#5f2f339a04b7c1207d5a24236e9b4913cb2d39fe"
+  integrity sha512-aOCZ4fDELnhdojORvV5GcyxrjOzDH75UMkRlRD5/eGVekA5PfTiQjW0/E3Tqa4zCnEgB77PO7JCRWhB8dEv7xg==
+  dependencies:
+    confusing-browser-globals "1.0.10"
 
 eslint-plugin-jest@23.20.0:
   version "23.20.0"
