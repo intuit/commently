@@ -1,6 +1,6 @@
 aliases:
   - &docker # specify the version you desire here
-    - image: circleci/node:10-browsers
+    - image: circleci/node:16-browsers
   # Circle related commands
   - &restore-cache
     keys:
