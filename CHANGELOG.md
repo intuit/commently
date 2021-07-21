@@ -1,3 +1,16 @@
+# v6.22.0 (Wed Jul 21 2021)
+
+#### 🚀 Enhancement
+
+- chore(deps): update dependency @octokit/rest to v18.7.0 [#630](https://github.com/intuit/commently/pull/630) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.21.11 (Tue Jul 20 2021)
 
 #### 🐛 Bug Fix
