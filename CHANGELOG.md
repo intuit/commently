@@ -1,3 +1,17 @@
+# v6.22.2 (Sat Jul 24 2021)
+
+#### 🐛 Bug Fix
+
+- `commently`
+  - chore(deps): update dependency @types/debug to v4.1.7 [#632](https://github.com/intuit/commently/pull/632) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v6.22.1 (Fri Jul 23 2021)
 
 #### 🐛 Bug Fix
