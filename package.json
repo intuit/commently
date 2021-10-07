@@ -26,7 +26,7 @@
     "@typescript-eslint/eslint-plugin": "1.13.0",
     "@typescript-eslint/parser": "1.13.0",
     "auto": "9.61.0",
-    "eslint": "6.8.0",
+    "eslint": "7.32.0",
     "eslint-config-prettier": "6.15.0",
     "eslint-config-xo": "0.27.2",
     "eslint-plugin-jest": "23.20.0",
