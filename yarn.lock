@@ -1735,17 +1735,17 @@
   resolved "https://registry.yarnpkg.com/@types/command-line-usage/-/command-line-usage-5.0.1.tgz#99424950da567ba67b6b65caee57ff03c4e751ec"
   integrity sha512-/xUgezxxYePeXhg5S04hUjxG9JZi+rJTs1+4NwpYPfSaS7BeDa6tVJkH6lN9Cb6rl8d24Fi2uX0s0Ngg2JT6gg==
 
-"@types/debug@4.1.7":
-  version "4.1.7"
-  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.7.tgz#7cc0ea761509124709b8b2d1090d8f6c17aadb82"
-  integrity sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg==
+"@types/debug@4.1.12":
+  version "4.1.12"
+  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.12.tgz#a155f21690871953410df4b6b6f53187f0500917"
+  integrity sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==
   dependencies:
     "@types/ms" "*"
 
-"@types/env-ci@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@types/env-ci/-/env-ci-3.1.1.tgz#e1ff1b648c01b0f5202de5633c00f711f0f3ac03"
-  integrity sha512-JuX+LHsvhktApmZxmBrG458kfSvPAvs2Kqhyrow3IKtDsbcRco7NFgpsNthjp8EQxKA6PMw3DrY/IH8ZAuTYlQ==
+"@types/env-ci@3.1.4":
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/@types/env-ci/-/env-ci-3.1.4.tgz#2fd9f39b10c8407ebf5887d68398413606ae00f9"
+  integrity sha512-WwSUcrqHNzRz+3nIZYO+p1OxJ/yDNSKFTpor06W+L2ie/K76a/Wb49LxHHiJMH44UeK7GM2kyWpL++e09v4qkA==
 
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
@@ -2841,6 +2841,11 @@ config-chain@^1.1.11:
     ini "^1.3.4"
     proto-list "~1.2.1"
 
+confusing-browser-globals@1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.11.tgz#ae40e9b57cdd3915408a2805ebd3a5585608dc81"
+  integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
+
 console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
@@ -3454,10 +3459,12 @@ eslint-config-prettier@6.15.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-xo@0.27.2:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.27.2.tgz#71aff3d5b5554e9e5b5e1853e21da7799bb53f1f"
-  integrity sha512-qEuZP0zNQkWpOdNZvWnfY2GNp1AZ33uXgeOXl4DN5YVLHFvekHbeSM2FFZ8A489fp1rCCColVRlJsYMf28o4DA==
+eslint-config-xo@0.44.0:
+  version "0.44.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.44.0.tgz#b4a68da791ecfd329bc7e1f88f9edea3d4dca70c"
+  integrity sha512-YG4gdaor0mJJi8UBeRJqDPO42MedTWYMaUyucF5bhm2pi/HS98JIxfFQmTLuyj6hGpQlAazNfyVnn7JuDn+Sew==
+  dependencies:
+    confusing-browser-globals "1.0.11"
 
 eslint-plugin-jest@23.20.0:
   version "23.20.0"
