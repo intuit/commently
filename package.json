@@ -32,7 +32,7 @@
     "eslint-plugin-jest": "23.20.0",
     "husky": "3.1.0",
     "jest": "24.9.0",
-    "lerna": "3.22.1",
+    "lerna": "8.1.8",
     "lint-staged": "9.5.0",
     "prettier": "1.19.1",
     "ts-jest": "24.3.0",
