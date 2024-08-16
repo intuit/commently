@@ -9,7 +9,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@octokit/rest": "16.33.1",
+    "@octokit/rest": "21.0.2",
     "debug": "4.1.1",
     "env-ci": "4.5.2"
   },
