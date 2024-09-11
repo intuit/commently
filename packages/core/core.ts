@@ -13,10 +13,13 @@ interface CommentlyArgs {
   repo?: string;
   /** The title at the top of the comment */
   title?: string;
+  /** The emoji to use in the comment */
+  emoji?: string;
   /** The unique key to identify the comment by, not shown to end users */
   key?: string;
   /** Key a history of the comments in the comment created by this library */
   useHistory?: boolean;
+
 }
 
 interface User {
@@ -38,6 +41,7 @@ export default class Commently {
   private readonly footer: string;
   private readonly delim: string;
   private readonly debug: debug.IDebugger;
+  private readonly emoji: string;
 
   constructor(args: CommentlyArgs) {
     this.debug = debug('commently');
@@ -46,6 +50,7 @@ export default class Commently {
     const slug = ('slug' in env && env.slug) || '';
     const [owner, repo] = slug.split('/');
     const prNumber = args.pr || ('pr' in env && Number(env.pr));
+    this.emoji = args.emoji || '💬'; // Default to speech balloon emoji if not provided
 
     if (!prNumber) {
       throw new Error(
@@ -58,6 +63,7 @@ export default class Commently {
     this.owner = args.owner || owner;
     this.repo = args.repo || repo;
     this.useHistory = 'useHistory' in args ? Boolean(args.useHistory) : true;
+
 
     if (!this.owner) {
       throw new Error(
@@ -72,7 +78,7 @@ export default class Commently {
     }
 
     this.issueId = prNumber;
-    this.header = `<!-- \n ${this.key}-id: ${this.issueId} \n -->\n${this.title}\n`;
+    this.header = `<!-- \n ${this.key}-id: ${this.issueId} \n -->\n${this.emoji} ${this.title}\n`;
     this.footer = `Courtesy of your **[${this.key}](https://github.com/intuit/commently)** bot :package::rocket:`;
     this.delim = `<!-- ${this.key}-section -->\n\n`;
 
