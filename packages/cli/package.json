@@ -17,7 +17,7 @@
     "log-symbols": "3.0.0"
   },
   "devDependencies": {
-    "@types/log-symbols": "2.0.0",
+    "@types/log-symbols": "3.0.0",
     "@types/node": "10.17.60"
   }
 }
