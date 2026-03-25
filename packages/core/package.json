@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@octokit/rest": "16.33.1",
-    "debug": "4.1.1",
+    "debug": "4.3.4",
     "env-ci": "4.5.2"
   },
   "devDependencies": {
