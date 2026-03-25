@@ -17,11 +17,14 @@ const args = arg({
   '--help': Boolean,
   '--verbose': Boolean,
 
+  '--emoji': String,
+
   // Aliases
   '-m': '--message',
   '-t': '--title',
   '-h': '--help',
-  '-v': '--verbose'
+  '-v': '--verbose',
+  '-e': '--emoji',
 });
 
 if (args['--help']) {
@@ -41,6 +44,7 @@ if (args['--help']) {
     --useHistory   Boolean    :    Keep a history of the comments in the comment created by this library
     --help, -h     Boolean    :    Show the help dialog
     --verbose, -v  Boolean    :    Output the debug log
+    --emoji, -e    Boolean    :    Output the debug log
   `);
   process.exit(0);
 }
@@ -59,7 +63,8 @@ const commently = new Commently({
   repo: args['--repo'],
   title: args['--title'],
   key: args['--key'],
-  useHistory: args['--useHistory']
+  useHistory: args['--useHistory'],
+  emoji: args['--emoji'] || '💬'
 });
 
 commently
