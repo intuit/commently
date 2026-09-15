@@ -19,8 +19,8 @@
     "release": "auto shipit"
   },
   "devDependencies": {
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/cli": "21.2.2",
+    "@commitlint/config-conventional": "21.2.2",
     "@octokit/rest": "18.12.0",
     "@types/jest": "24.9.1",
     "@typescript-eslint/eslint-plugin": "1.13.0",
